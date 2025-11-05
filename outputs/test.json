@@ -1,0 +1,648 @@
+{
+  "title_japanese": "時の迷宮",
+  "title_romaji": "Toki no Meikyū",
+  "title_kannada": "ಕಾಲದ ಸುಳಿದಾಟ",
+  "nodes": [
+    {
+      "id": 1,
+      "title_japanese": "目覚め",
+      "title_romaji": "Mezame",
+      "title_kannada": "ಎಚ್ಚರ",
+      "texts": [
+        {
+          "text_japanese": "あなたは、古びた部屋で目覚めます。",
+          "text_romaji": "Anata wa, furubita heya de mezamemasu.",
+          "text_kannada": "ನೀವು, ಹಳೆಯ ಕೋಣೆಯಲ್ಲಿ ಎಚ್ಚರಗೊಳ್ಳುತ್ತೀರಿ."
+        },
+        {
+          "text_japanese": "記憶はありません。",
+          "text_romaji": "Kioku wa arimasen.",
+          "text_kannada": "ನೆನಪುಗಳು ಇಲ್ಲ."
+        },
+        {
+          "text_japanese": "目の前には、木製の扉があります。",
+          "text_romaji": "Me no mae ni wa, mokusei no tobira ga arimasu.",
+          "text_kannada": "ಕಣ್ಣೆದುರಿಗೆ, ಮರದ ಬಾಗಿಲಿದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "扉を開ける",
+          "text_romaji": "Tobira o akeru",
+          "text_kannada": "ಬಾಗಿಲು ತೆರೆಯಿರಿ",
+          "destination_id": 2
+        },
+        {
+          "text_japanese": "部屋を調べる",
+          "text_romaji": "Heya o shiraberu",
+          "text_kannada": "ಕೋಣೆಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_japanese": "薄暗い廊下",
+      "title_romaji": "Usugurai Rōka",
+      "title_kannada": "ಮಂದ ಬೆಳಕಿನ ಹಜಾರ",
+      "texts": [
+        {
+          "text_japanese": "扉を開けると、薄暗い廊下が広がっていました。",
+          "text_romaji": "Tobira o akeru to, usugurai rōka ga hirogatte imashita.",
+          "text_kannada": "ಬಾಗಿಲು ತೆರೆದಾಗ, ಮಂದ ಬೆಳಕಿನ ಹಜಾರ ಹರಡಿತ್ತು."
+        },
+        {
+          "text_japanese": "どこからか、ささやき声が聞こえます。",
+          "text_romaji": "Doko kara ka, sasayaki goe ga kikoemasu.",
+          "text_kannada": "ಎಲ್ಲಿಂದಲೋ, ಪಿಸುಮಾತು ಕೇಳಿಸುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "廊下を進む",
+          "text_romaji": "Rōka o susumu",
+          "text_kannada": "ಹಜಾರದಲ್ಲಿ ಮುಂದುವರಿಯಿರಿ",
+          "destination_id": 4
+        },
+        {
+          "text_japanese": "声の方向へ行く",
+          "text_romaji": "Koe no hōkō e iku",
+          "text_kannada": "ಧ್ವನಿಯ ದಿಕ್ಕಿನಲ್ಲಿ ಹೋಗಿ",
+          "destination_id": 5
+        },
+        {
+          "text_japanese": "部屋に戻る",
+          "text_romaji": "Heya ni modoru",
+          "text_kannada": "ಕೋಣೆಗೆ ಹಿಂತಿರುಗಿ",
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_japanese": "隠された手紙",
+      "title_romaji": "Kakusareta Tegami",
+      "title_kannada": "ಅಡಗಿದ ಪತ್ರ",
+      "texts": [
+        {
+          "text_japanese": "部屋を調べると、古びた机の下から薄い手紙を見つけました。",
+          "text_romaji": "Heya o shiraberu to, furubita tsukue no shita kara usui tegami o mitsukemashita.",
+          "text_kannada": "ಕೋಣೆಯನ್ನು ಪರಿಶೀಲಿಸಿದಾಗ, ಹಳೆಯ ಮೇಜಿನ ಕೆಳಗೆ ತೆಳುವಾದ ಪತ್ರ ಸಿಕ್ಕಿತು."
+        },
+        {
+          "text_japanese": "そこには、「過去の扉を開けよ」と書かれています。",
+          "text_romaji": "Soko ni wa, 'Kako no tobira o akeyo' to kakarete imasu.",
+          "text_kannada": "ಅದರಲ್ಲಿ, 'ಭೂತಕಾಲದ ಬಾಗಿಲನ್ನು ತೆರೆಯಿರಿ' ಎಂದು ಬರೆಯಲಾಗಿದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "手紙をポケットに入れる",
+          "text_romaji": "Tegami o poketto ni ireru",
+          "text_kannada": "ಪತ್ರವನ್ನು ಪಾಕೆಟ್‌ಗೆ ಹಾಕಿ",
+          "destination_id": 2
+        },
+        {
+          "text_japanese": "手紙を無視して部屋を出る",
+          "text_romaji": "Tegami o mushi shite heya o deru",
+          "text_kannada": "ಪತ್ರವನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ ಕೋಣೆಯಿಂದ ಹೊರಬನ್ನಿ",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_japanese": "時間の裂け目",
+      "title_romaji": "Jikan no Sakeme",
+      "title_kannada": "ಕಾಲದ ವಿಭಜನೆ",
+      "texts": [
+        {
+          "text_japanese": "廊下を進むと、突然空間がねじれ始めました。",
+          "text_romaji": "Rōka o susumu to, totsuzen kūkan ga nejire hajimemashita.",
+          "text_kannada": "ಹಜಾರದಲ್ಲಿ ಮುಂದುವರಿದಾಗ, ಹಠಾತ್ತಾಗಿ ಜಾಗ ತಿರುಚಲು ಪ್ರಾರಂಭಿಸಿತು."
+        },
+        {
+          "text_japanese": "目の前に、光り輝く時間の裂け目が現れます。",
+          "text_romaji": "Me no mae ni, hikari kagayaku jikan no sakeme ga arawaremasu.",
+          "text_kannada": "ಕಣ್ಣೆದುರಿಗೆ, ಹೊಳೆಯುವ ಕಾಲದ ವಿಭಜನೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "裂け目に入る",
+          "text_romaji": "Sakeme ni hairu",
+          "text_kannada": "ವಿಭಜನೆಯೊಳಗೆ ಪ್ರವೇಶಿಸಿ",
+          "destination_id": 6
+        },
+        {
+          "text_japanese": "引き返す",
+          "text_romaji": "Hikikaesu",
+          "text_kannada": "ಹಿಂತಿರುಗಿ",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_japanese": "囁きの源",
+      "title_romaji": "Sasayaki no Minamoto",
+      "title_kannada": "ಪಿಸುಮಾತಿನ ಮೂಲ",
+      "texts": [
+        {
+          "text_japanese": "ささやき声の方向へ行くと、壁に埋め込まれた古い鏡を見つけました。",
+          "text_romaji": "Sasayaki goe no hōkō e iku to, kabe ni umekomareta furui kagami o mitsukemashita.",
+          "text_kannada": "ಪಿಸುಮಾತಿನ ದಿಕ್ಕಿನಲ್ಲಿ ಹೋದಾಗ, ಗೋಡೆಯೊಳಗೆ ಹುದುಗಿರುವ ಹಳೆಯ ಕನ್ನಡಿ ಸಿಕ್ಕಿತು."
+        },
+        {
+          "text_japanese": "鏡の中から、あなたの名前を呼ぶ声が聞こえます。",
+          "text_romaji": "Kagami no naka kara, anata no namae o yobu koe ga kikoemasu.",
+          "text_kannada": "ಕನ್ನಡಿಯೊಳಗೆ, ನಿಮ್ಮ ಹೆಸರನ್ನು ಕರೆಯುವ ಧ್ವನಿ ಕೇಳಿಸುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "鏡に触れる",
+          "text_romaji": "Kagami ni fureru",
+          "text_kannada": "kannadi ge barekali",
+          "destination_id": 7
+        },
+        {
+          "text_japanese": "鏡から離れる",
+          "text_romaji": "Kagami kara hanareru",
+          "text_kannada": "ಕನ್ನಡಿಯಿಂದ ದೂರವಿರಿ",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_japanese": "古代の森",
+      "title_romaji": "Kodai no Mori",
+      "title_kannada": "ಪ್ರಾಚೀನ ಅರಣ್ಯ",
+      "texts": [
+        {
+          "text_japanese": "時間の裂け目を抜けると、あなたは古代の森に立っていました。",
+          "text_romaji": "Jikan no sakeme o nukeru to, anata wa kodai no mori ni tatte imashita.",
+          "text_kannada": "ಕಾಲದ ವಿಭಜನೆಯನ್ನು ದಾಟಿ ಬಂದಾಗ, ನೀವು ಪ್ರಾಚೀನ ಅರಣ್ಯದಲ್ಲಿ ನಿಂತಿದ್ದೀರಿ."
+        },
+        {
+          "text_japanese": "巨大な木々が空を覆い、見慣れない鳥の鳴き声が響いています。",
+          "text_romaji": "Kyodai na kigi ga sora o ōi, minarenai tori no nakigoe ga hibiite imasu.",
+          "text_kannada": "ಅಪಾರ ಮರಗಳು ಆಕಾಶವನ್ನು ಆವರಿಸಿವೆ, ಪರಿಚಿತವಿಲ್ಲದ ಪಕ್ಷಿಗಳ ಕೂಗು ಪ್ರತಿಧ್ವನಿಸುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "森の奥へ進む",
+          "text_romaji": "Mori no oku e susumu",
+          "text_kannada": "ಅರಣ್ಯದ ಆಳಕ್ಕೆ ಹೋಗಿ",
+          "destination_id": 8
+        },
+        {
+          "text_japanese": "川の音のする方へ行く",
+          "text_romaji": "Kawa no oto no suru hō e iku",
+          "text_kannada": "ನದಿ ಸದ್ದಿನ ಕಡೆಗೆ ಹೋಗಿ",
+          "destination_id": 9
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_japanese": "過去の記憶",
+      "title_romaji": "Kako no Kioku",
+      "title_kannada": "ಭೂತಕಾಲದ ನೆನಪು",
+      "texts": [
+        {
+          "text_japanese": "鏡に触れると、まばゆい光があなたを包み込みました。",
+          "text_romaji": "Kagami ni fureru to, mabayui hikari ga anata o tsutsumikomi mashita.",
+          "text_kannada": "ಕನ್ನಡಿಯನ್ನು ಸ್ಪರ್ಶಿಸಿದಾಗ, ಪ್ರಜ್ವಲಿಸುವ ಬೆಳಕು ನಿಮ್ಮನ್ನು ಆವರಿಸಿತು."
+        },
+        {
+          "text_japanese": "あなたは、失われた記憶の一部を取り戻しました。",
+          "text_romaji": "Anata wa, ushinawareta kioku no ichibu o torimodoshi mashita.",
+          "text_kannada": "ನೀವು, ಕಳೆದುಹೋದ ನೆನಪುಗಳ ಒಂದು ಭಾಗವನ್ನು ಮರಳಿ ಪಡೆದಿದ್ದೀರಿ."
+        },
+        {
+          "text_japanese": "どうやらあなたは、時間旅行者らしいです。",
+          "text_romaji": "Dōyara anata wa, jikan ryokō-sha rashī desu.",
+          "text_kannada": "ನೀವು, ಸಮಯ ಪ್ರವಾಸಿಗ ಎಂದು ತೋರುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "廊下に戻る",
+          "text_romaji": "Rōka ni modoru",
+          "text_kannada": "ಹಜಾರಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+          "destination_id": 2
+        },
+        {
+          "text_japanese": "鏡の奥を覗き込む",
+          "text_romaji": "Kagami no oku o nozokikomu",
+          "text_kannada": "ಕನ್ನಡಿಯ ಆಳವನ್ನು ಇಣುಕಿ ನೋಡಿ",
+          "destination_id": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_japanese": "迷宮の入り口",
+      "title_romaji": "Meikyū no Iriguchi",
+      "title_kannada": "ಸುಳಿದಾಟದ ಪ್ರವೇಶ",
+      "texts": [
+        {
+          "text_japanese": "森の奥へ進むと、巨大な石の門が見えてきました。",
+          "text_romaji": "Mori no oku e susumu to, kyodai na ishi no mon ga miete kimashita.",
+          "text_kannada": "ಅರಣ್ಯದ ಆಳಕ್ಕೆ ಹೋದಾಗ, ಬೃಹತ್ ಕಲ್ಲಿನ ದ್ವಾರ ಕಾಣಿಸಿತು."
+        },
+        {
+          "text_japanese": "門には、奇妙な文字が刻まれています。",
+          "text_romaji": "Mon ni wa, kimyō na moji ga kizamarete imasu.",
+          "text_kannada": "ದ್ವಾರದ ಮೇಲೆ, ವಿಚಿತ್ರ ಅಕ್ಷರಗಳು ಕೆತ್ತಲಾಗಿದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "門を調べる",
+          "text_romaji": "Mon o shiraberu",
+          "text_kannada": "ದ್ವಾರವನ್ನು ಪರಿಶೀಲಿಸಿ",
+          "destination_id": 11
+        },
+        {
+          "text_japanese": "門をくぐる",
+          "text_romaji": "Mon o kuguru",
+          "text_kannada": "ದ್ವಾರದ ಮೂಲಕ ಹೋಗಿ",
+          "destination_id": 12
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title_japanese": "時間の川",
+      "title_romaji": "Jikan no Kawa",
+      "title_kannada": "ಕಾಲದ ನದಿ",
+      "texts": [
+        {
+          "text_japanese": "川の音のする方へ行くと、輝く川が流れていました。",
+          "text_romaji": "Kawa no oto no suru hō e iku to, kagayaku kawa ga nagarete imashita.",
+          "text_kannada": "ನದಿ ಸದ್ದಿನ ಕಡೆಗೆ ಹೋದಾಗ, ಹೊಳೆಯುವ ನದಿ ಹರಿಯುತ್ತಿತ್ತು."
+        },
+        {
+          "text_japanese": "川の水は、過去と未来の出来事を映し出しています。",
+          "text_romaji": "Kawa no mizu wa, kako to mirai no dekigoto o utsushi dashite imasu.",
+          "text_kannada": "ನದಿಯ ನೀರು, ಭೂತ ಮತ್ತು ಭವಿಷ್ಯದ ಘಟನೆಗಳನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "川の水を飲む",
+          "text_romaji": "Kawa no mizu o nomu",
+          "text_kannada": "ನದಿಯ ನೀರನ್ನು ಕುಡಿಯಿರಿ",
+          "destination_id": 13
+        },
+        {
+          "text_japanese": "川を渡る",
+          "text_romaji": "Kawa o wataru",
+          "text_kannada": "ನದಿಯನ್ನು ದಾಟಿ",
+          "destination_id": 14
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title_japanese": "未来のヴィジョン",
+      "title_romaji": "Mirai no Vijon",
+      "title_kannada": "ಭವಿಷ್ಯದ ದೃಷ್ಟಿ",
+      "texts": [
+        {
+          "text_japanese": "鏡の奥を覗き込むと、未来の出来事が走馬灯のように見えました。",
+          "text_romaji": "Kagami no oku o nozokikomu to, mirai no dekigoto ga sōmatō no yō ni miemashita.",
+          "text_kannada": "ಕನ್ನಡಿಯ ಆಳವನ್ನು ಇಣುಕಿ ನೋಡಿದಾಗ, ಭವಿಷ್ಯದ ಘಟನೆಗಳು ಚಲನಚಿತ್ರದಂತೆ ಕಂಡಿತು."
+        },
+        {
+          "text_japanese": "あなたは、自分の使命が時間を取り戻すことだと悟ります。",
+          "text_romaji": "Anata wa, jibun no shimei ga jikan o torimodosu koto da to satorimasu.",
+          "text_kannada": "ನೀವು, ನಿಮ್ಮ ಧ್ಯೇಯವು ಸಮಯವನ್ನು ಮರಳಿ ಪಡೆಯುವುದು ಎಂದು ಅರಿತುಕೊಳ್ಳುತ್ತೀರಿ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "廊下に戻り旅を続ける",
+          "text_romaji": "Rōka ni modori tabi o tsuzureru",
+          "text_kannada": "ಹಜಾರಕ್ಕೆ ಹಿಂತಿರುಗಿ ಪ್ರಯಾಣ ಮುಂದುವರಿಸಿ",
+          "destination_id": 2
+        },
+        {
+          "text_japanese": "鏡の力を使う方法を探す",
+          "text_romaji": "Kagami no chikara o tsukau hōhō o sagasu",
+          "text_kannada": "ಕನ್ನಡಿಯ ಶಕ್ತಿಯನ್ನು ಬಳಸುವ ವಿಧಾನವನ್ನು ಹುಡುಕಿ",
+          "destination_id": 15
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title_japanese": "古代の文字",
+      "title_romaji": "Kodai no Moji",
+      "title_kannada": "ಪ್ರಾಚೀನ ಲಿಪಿ",
+      "texts": [
+        {
+          "text_japanese": "門の文字を調べると、それは失われた古代語で書かれていました。",
+          "text_romaji": "Mon no moji o shiraberu to, sore wa ushinawareta kodaigo de kakarete imashita.",
+          "text_kannada": "ದ್ವಾರದ ಮೇಲಿನ ಅಕ್ಷರಗಳನ್ನು ಪರಿಶೀಲಿಸಿದಾಗ, ಅದು ಕಳೆದುಹೋದ ಪ್ರಾಚೀನ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾಗಿದೆ."
+        },
+        {
+          "text_japanese": "手紙の記憶が蘇り、一部を解読できます。",
+          "text_romaji": "Tegami no kioku ga yomigaeri, ichibu o kaidoku dekimasu.",
+          "text_kannada": "ಪತ್ರದ ನೆನಪು ಮರುಕಳಿಸುತ್ತದೆ, ಒಂದು ಭಾಗವನ್ನು ಅರ್ಥೈಸಬಹುದು."
+        },
+        {
+          "text_japanese": "「真実を求める者のみ、時を超えられる」",
+          "text_romaji": "'Shinjitsu o motomeru mono nomi, toki o koerareru'",
+          "text_kannada": "'ಸತ್ಯವನ್ನು ಹುಡುಕುವವರಿಗೆ ಮಾತ್ರ, ಕಾಲವನ್ನು ಮೀರಿಸಬಹುದು'"
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "門をくぐる",
+          "text_romaji": "Mon o kuguru",
+          "text_kannada": "ದ್ವಾರದ ಮೂಲಕ ಹೋಗಿ",
+          "destination_id": 12
+        },
+        {
+          "text_japanese": "森に戻る",
+          "text_romaji": "Mori ni modoru",
+          "text_kannada": "ಅರಣ್ಯಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+          "destination_id": 6
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title_japanese": "時間の殿堂",
+      "title_romaji": "Jikan no Dendō",
+      "title_kannada": "ಕಾಲದ ದೇವಾಲಯ",
+      "texts": [
+        {
+          "text_japanese": "門をくぐると、巨大で荘厳な殿堂に入りました。",
+          "text_romaji": "Mon o kuguru to, kyodai de sōgon na dendō ni hairimashita.",
+          "text_kannada": "ದ್ವಾರವನ್ನು ದಾಟಿದಾಗ, ಬೃಹತ್ ಮತ್ತು ಭವ್ಯ ದೇವಾಲಯವನ್ನು ಪ್ರವೇಶಿಸಿದೆ."
+        },
+        {
+          "text_japanese": "中央には、時間を司るクリスタルの柱が立っています。",
+          "text_romaji": "Chūō ni wa, jikan o tsukasadoru kurisutaru no hashira ga tatte imasu.",
+          "text_kannada": "ಮಧ್ಯದಲ್ಲಿ, ಸಮಯವನ್ನು ನಿಯಂತ್ರಿಸುವ ಸ್ಪಟಿಕದ ಕಂಬ ನಿಂತಿದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "クリスタルの柱に触れる",
+          "text_romaji": "Kurisutaru no hashira ni fureru",
+          "text_kannada": "ಸ್ಪಟಿಕದ ಕಂಬವನ್ನು ಸ್ಪರ್ಶಿಸಿ",
+          "destination_id": 16
+        },
+        {
+          "text_japanese": "殿堂を探索する",
+          "text_romaji": "Dendō o tansaku suru",
+          "text_kannada": "ದೇವಾಲಯವನ್ನು ಅನ್ವೇಷಿಸಿ",
+          "destination_id": 17
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title_japanese": "記憶の洪水",
+      "title_romaji": "Kioku no Kōzui",
+      "title_kannada": "ನೆನಪಿನ ಪ್ರವಾಹ",
+      "texts": [
+        {
+          "text_japanese": "川の水を飲むと、これまでの記憶が洪水のように押し寄せました。",
+          "text_romaji": "Kawa no mizu o nomu to, kore made no kioku ga kōzui no yō ni oshiyose mashita.",
+          "text_kannada": "ನದಿಯ ನೀರನ್ನು ಕುಡಿದಾಗ, ಇದುವರೆಗಿನ ನೆನಪುಗಳು ಪ್ರವಾಹದಂತೆ ನುಗ್ಗಿದವು."
+        },
+        {
+          "text_japanese": "あなたは、自分が失われた時間を取り戻すためにここにいることを完全に思い出します。",
+          "text_romaji": "Anata wa, jibun ga ushinawareta jikan o torimodosu tame ni koko ni iru koto o kanzen ni omoidashimasu.",
+          "text_kannada": "ನೀವು, ಕಳೆದುಹೋದ ಸಮಯವನ್ನು ಮರಳಿ ಪಡೆಯಲು ಇಲ್ಲಿರುವಿರಿ ಎಂದು ಸಂಪೂರ್ಣವಾಗಿ ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತೀರಿ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "川を渡り旅を続ける",
+          "text_romaji": "Kawa o watari tabi o tsuzuru",
+          "text_kannada": "ನದಿಯನ್ನು ದಾಟಿ ಪ್ರಯಾಣ ಮುಂದುವರಿಸಿ",
+          "destination_id": 14
+        },
+        {
+          "text_japanese": "森に戻る",
+          "text_romaji": "Mori ni modoru",
+          "text_kannada": "ಅರಣ್ಯಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+          "destination_id": 6
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title_japanese": "荒廃した未来",
+      "title_romaji": "Kōhai shita Mirai",
+      "title_kannada": "ನಾಶಗೊಂಡ ಭವಿಷ್ಯ",
+      "texts": [
+        {
+          "text_japanese": "川を渡ると、荒廃した未来の世界にたどり着きました。",
+          "text_romaji": "Kawa o wataru to, kōhai shita mirai no sekai ni tadoritsukimashita.",
+          "text_kannada": "ನದಿಯನ್ನು ದಾಟಿದಾಗ, ನಾಶಗೊಂಡ ಭವಿಷ್ಯದ ಜಗತ್ತನ್ನು ತಲುಪಿದೆ."
+        },
+        {
+          "text_japanese": "空は灰色で、崩壊した建物が立ち並んでいます。",
+          "text_romaji": "Sora wa haiiro de, hōkai shita tatemono ga tachinarande imasu.",
+          "text_kannada": "ಆಕಾಶವು ಬೂದು ಬಣ್ಣದಲ್ಲಿದೆ, ಕುಸಿದ ಕಟ್ಟಡಗಳು ಸಾಲುಗಟ್ಟಿ ನಿಂತಿವೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "廃墟を探索する",
+          "text_romaji": "Haikyo o tansaku suru",
+          "text_kannada": "ಅವಶೇಷಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
+          "destination_id": 18
+        },
+        {
+          "text_japanese": "時間の流れを戻そうとする",
+          "text_romaji": "Jikan no nagare o modosō to suru",
+          "text_kannada": "ಸಮಯದ ಹರಿವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸಿ",
+          "destination_id": 19
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title_japanese": "鏡の守護者",
+      "title_romaji": "Kagami no Shugosha",
+      "title_kannada": "ಕನ್ನಡಿಯ ರಕ್ಷಕ",
+      "texts": [
+        {
+          "text_japanese": "鏡の力を使う方法を探していると、鏡の奥から老人が現れました。",
+          "text_romaji": "Kagami no chikara o tsukau hōhō o sagashite iru to, kagami no oku kara rōjin ga arawaremashita.",
+          "text_kannada": "ಕನ್ನಡಿಯ ಶಕ್ತಿಯನ್ನು ಬಳಸುವ ಮಾರ್ಗವನ್ನು ಹುಡುಕುತ್ತಿರುವಾಗ, ಕನ್ನಡಿಯ ಆಳದಿಂದ ಒಬ್ಬ ವೃದ್ಧ ಕಾಣಿಸಿಕೊಂಡರು."
+        },
+        {
+          "text_japanese": "彼は、「真の力は、己の内に宿る」と語りかけます。",
+          "text_romaji": "Kare wa, 'Shin no chikara wa, onore no uchi ni yadoru' to katarikakemasu.",
+          "text_kannada": "ಅವರು, 'ನಿಜವಾದ ಶಕ್ತಿ, ತನ್ನೊಳಗೆ ಇರುತ್ತದೆ' ಎಂದು ಹೇಳಿದರು."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "老人の言葉に従う",
+          "text_romaji": "Rōjin no kotoba ni shitagau",
+          "text_kannada": "ವೃದ್ಧರ ಮಾತನ್ನು ಅನುಸರಿಸಿ",
+          "destination_id": 19
+        },
+        {
+          "text_japanese": "老人に疑問をぶつける",
+          "text_romaji": "Rōjin ni gimon o butsukeru",
+          "text_kannada": "ವೃದ್ಧರಿಗೆ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ",
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title_japanese": "時間の制御",
+      "title_romaji": "Jikan no Seigyo",
+      "title_kannada": "ಸಮಯದ ನಿಯಂತ್ರಣ",
+      "texts": [
+        {
+          "text_japanese": "クリスタルの柱に触れると、時間の流れがあなたの意のままになりました。",
+          "text_romaji": "Kurisutaru no hashira ni fureru to, jikan no nagare ga anata no i no mama ni narimashita.",
+          "text_kannada": "ಸ್ಪಟಿಕದ ಕಂಬವನ್ನು ಸ್ಪರ್ಶಿಸಿದಾಗ, ಕಾಲದ ಹರಿವು ನಿಮ್ಮ ಇಚ್ಛೆಯಂತೆ ಆಯಿತು."
+        },
+        {
+          "text_japanese": "あなたは、過去を変え、未来を再構築する力を手に入れました。",
+          "text_romaji": "Anata wa, kako o kae, mirai o saikōchiku suru chikara o te ni iremashita.",
+          "text_kannada": "ನೀವು, ಭೂತವನ್ನು ಬದಲಾಯಿಸಲು, ಭವಿಷ್ಯವನ್ನು ಪುನರ್ನಿರ್ಮಿಸಲು ಶಕ್ತಿ ಪಡೆದಿದ್ದೀರಿ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "失われた時間を取り戻す",
+          "text_romaji": "Ushinawareta jikan o torimodosu",
+          "text_kannada": "ಕಳೆದುಹೋದ ಸಮಯವನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ",
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title_japanese": "隠された通路",
+      "title_romaji": "Kakusareta Tsūro",
+      "title_kannada": "ಅಡಗಿದ ಹಾದಿ",
+      "texts": [
+        {
+          "text_japanese": "殿堂を探索していると、壁の隠された通路を発見しました。",
+          "text_romaji": "Dendō o tansaku shite iru to, kabe no kakusareta tsūro o hakken shimashita.",
+          "text_kannada": "ದೇವಾಲಯವನ್ನು ಅನ್ವೇಷಿಸುತ್ತಿರುವಾಗ, ಗೋಡೆಯ ಅಡಗಿದ ಹಾದಿಯನ್ನು ಪತ್ತೆಹಚ್ಚಿದೆ."
+        },
+        {
+          "text_japanese": "その奥には、小さな祭壇があります。",
+          "text_romaji": "Sono oku ni wa, chiisana saidan ga arimasu.",
+          "text_kannada": "ಅದರ ಆಳದಲ್ಲಿ, ಒಂದು ಸಣ್ಣ ಯಜ್ಞವೇದಿಕೆ ಇದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "祭壇を調べる",
+          "text_romaji": "Saidan o shiraberu",
+          "text_kannada": "ಯಜ್ಞವೇದಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+          "destination_id": 19
+        },
+        {
+          "text_japanese": "殿堂の探索を続ける",
+          "text_romaji": "Dendō no tansaku o tsuzuru",
+          "text_kannada": "ದೇವಾಲಯದ ಅನ್ವೇಷಣೆ ಮುಂದುವರಿಸಿ",
+          "destination_id": 12
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title_japanese": "希望の残骸",
+      "title_romaji": "Kibō no Zangai",
+      "title_kannada": "ಭರವಸೆಯ ಅವಶೇಷ",
+      "texts": [
+        {
+          "text_japanese": "荒廃した未来を探索していると、地中から奇妙な装置を見つけました。",
+          "text_romaji": "Kōhai shita mirai o tansaku shite iru to, chichū kara kimyō na sōchi o mitsukemashita.",
+          "text_kannada": "ನಾಶಗೊಂಡ ಭವಿಷ್ಯವನ್ನು ಅನ್ವೇಷಿಸುತ್ತಿರುವಾಗ, ನೆಲದ ಕೆಳಗಿನಿಂದ ವಿಚಿತ್ರ ಸಾಧನವನ್ನು ಸಿಕ್ಕಿತು."
+        },
+        {
+          "text_japanese": "それは、時間を安定させるための装置のようです。",
+          "text_romaji": "Sore wa, jikan o anteiさせる tame no sōchi no yō desu.",
+          "text_kannada": "ಅದು, ಸಮಯವನ್ನು ಸ್ಥಿರಗೊಳಿಸುವ ಸಾಧನದಂತೆ ಕಾಣುತ್ತದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "装置を起動する",
+          "text_romaji": "Sōchi o kidō suru",
+          "text_kannada": "ಸಾಧನವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+          "destination_id": 20
+        },
+        {
+          "text_japanese": "川に戻る",
+          "text_romaji": "Kawa ni modoru",
+          "text_kannada": "ನದಿಗೆ ಹಿಂತಿರುಗಿ",
+          "destination_id": 14
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title_japanese": "内なる力",
+      "title_romaji": "Uchi naru Chikara",
+      "title_kannada": "ಆಂತರಿಕ ಶಕ್ತಿ",
+      "texts": [
+        {
+          "text_japanese": "あなたは、自分の内なる力に目覚めました。",
+          "text_romaji": "Anata wa, jibun no uchi naru chikara ni mezamemashita.",
+          "text_kannada": "ನೀವು, ನಿಮ್ಮ ಆಂತರಿಕ ಶಕ್ತಿಯನ್ನು ಅರಿತುಕೊಂಡಿದ್ದೀರಿ."
+        },
+        {
+          "text_japanese": "時間そのものを操る力が、あなたの手の中にあります。",
+          "text_romaji": "Jikan sono mono o ayatsuru chikara ga, anata no te no naka ni arimasu.",
+          "text_kannada": "ಕಾಲವನ್ನೇ ನಿಯಂತ್ರಿಸುವ ಶಕ್ತಿ, ನಿಮ್ಮ ಕೈಯಲ್ಲಿದೆ."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "失われた時間を取り戻す",
+          "text_romaji": "Ushinawareta jikan o torimodosu",
+          "text_kannada": "ಕಳೆದುಹೋದ ಸಮಯವನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ",
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title_japanese": "時の修復",
+      "title_romaji": "Toki no Shūfuku",
+      "title_kannada": "ಕಾಲದ ದುರಸ್ತಿ",
+      "texts": [
+        {
+          "text_japanese": "あなたは、時空のねじれを正し、失われた時間を取り戻しました。",
+          "text_romaji": "Anata wa, jikū no nejire o tadashi, ushinawareta jikan o torimodoshi mashita.",
+          "text_kannada": "ನೀವು, ಕಾಲಚಕ್ರದ ತಿರುಚುವಿಕೆಯನ್ನು ಸರಿಪಡಿಸಿ, ಕಳೆದುಹೋದ ಸಮಯವನ್ನು ಮರಳಿ ಪಡೆದಿದ್ದೀರಿ."
+        },
+        {
+          "text_japanese": "世界は再び、正しい歴史の道を歩み始めました。",
+          "text_romaji": "Sekai wa futatabi, tadashii rekishi no michi o ayumi hajimemashita.",
+          "text_kannada": "ಜಗತ್ತು ಮತ್ತೆ, ಸರಿಯಾದ ಇತಿಹಾಸದ ಹಾದಿಯಲ್ಲಿ ನಡೆಯಲು ಪ್ರಾರಂಭಿಸಿತು."
+        },
+        {
+          "text_japanese": "あなたは、時の守護者として、新たな旅を続けます。",
+          "text_romaji": "Anata wa, toki no shugosha to shite, arata na tabi o tsuzukemasu.",
+          "text_kannada": "ನೀವು, ಕಾಲದ ರಕ್ಷಕರಾಗಿ, ಹೊಸ ಪ್ರಯಾಣವನ್ನು ಮುಂದುವರಿಸುತ್ತೀರಿ."
+        }
+      ],
+      "actions": []
+    }
+  ]
+}
