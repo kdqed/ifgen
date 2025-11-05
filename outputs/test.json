@@ -1,0 +1,658 @@
+{
+  "title": {
+    "text_l1": "Yami no Mori: Saigo no Ken",
+    "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cb2\u0cc6\u0caf \u0c95\u0cbe\u0ca1\u0cc1: \u0c95\u0cca\u0ca8\u0cc6\u0caf \u0c95\u0ca4\u0ccd\u0ca4\u0cbf"
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "title": {
+        "text_l1": "Hajimari no Mori",
+        "text_l2": "\u0c86\u0cb0\u0c82\u0cad\u0ca6 \u0c95\u0cbe\u0ca1\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata wa fukai mori no iriguchi ni tatteimasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c86\u0cb3\u0cb5\u0cbe\u0ca6 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0caa\u0ccd\u0cb0\u0cb5\u0cc7\u0cb6\u0ca6\u0ccd\u0cb5\u0cbe\u0cb0\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0ca8\u0cbf\u0c82\u0ca4\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Kigi wa takaku, sora wa mienai hodo desu.",
+          "text_l2": "\u0cae\u0cb0\u0c97\u0cb3\u0cc1 \u0c8e\u0ca4\u0ccd\u0ca4\u0cb0\u0cb5\u0cbe\u0c97\u0cbf\u0cb5\u0cc6, \u0c86\u0c95\u0cbe\u0cb6\u0cb5\u0cc1 \u0c95\u0cbe\u0ca3\u0cbf\u0cb8\u0cc1\u0cb5\u0cc1\u0ca6\u0cbf\u0cb2\u0ccd\u0cb2."
+        },
+        {
+          "text_l1": "Nani o shimasu ka?",
+          "text_l2": "\u0c8f\u0ca8\u0cc1 \u0cae\u0cbe\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Mori no naka e susumu",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cca\u0cb3\u0c97\u0cc6 \u0cae\u0cc1\u0c82\u0ca6\u0cc6 \u0cb8\u0cbe\u0c97\u0cc1"
+          },
+          "destination_id": 2
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori no mawari o miru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cae\u0cc1\u0ca4\u0ccd\u0ca4 \u0ca8\u0ccb\u0ca1\u0cc1"
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "text_l1": "Mori no Komichi",
+        "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0cb8\u0ca3\u0ccd\u0ca3 \u0cb9\u0cbe\u0ca6\u0cbf"
+      },
+      "texts": [
+        {
+          "text_l1": "Kayowa na komichi o susumimasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0ca4\u0cc6\u0cb3\u0cc1 \u0cb9\u0cbe\u0ca6\u0cbf\u0caf\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Kusa ga ashi ni fure masu.",
+          "text_l2": "\u0cb9\u0cc1\u0cb2\u0ccd\u0cb2\u0cc1 \u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0c95\u0cbe\u0cb2\u0cc1\u0c97\u0cb3\u0cbf\u0c97\u0cc6 \u0cb8\u0ccd\u0caa\u0cb0\u0ccd\u0cb6\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Saki ni furui doobutsud\u014d o mitsukemasu.",
+          "text_l2": "\u0cae\u0cc1\u0c82\u0ca6\u0cc6 \u0ca8\u0cc0\u0cb5\u0cc1 \u0cb9\u0cb3\u0cc6\u0caf \u0cae\u0cc3\u0c97\u0cbe\u0cb2\u0caf\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Dobutsu dou ni hairu",
+            "text_l2": "\u0cae\u0cc3\u0c97\u0cbe\u0cb2\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0caa\u0ccd\u0cb0\u0cb5\u0cc7\u0cb6\u0cbf\u0cb8\u0cc1"
+          },
+          "destination_id": 4
+        },
+        {
+          "action_text": {
+            "text_l1": "Motto oku e susumu",
+            "text_l2": "\u0c87\u0ca8\u0ccd\u0ca8\u0cc2 \u0c86\u0cb3\u0cb5\u0cbe\u0c97\u0cbf \u0cb8\u0cbe\u0c97\u0cc1"
+          },
+          "destination_id": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "text_l1": "Mori no Hazure",
+        "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0c85\u0c82\u0c9a\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Mori no hazure de chiryoku o shimasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0c85\u0c82\u0c9a\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cae\u0cc1\u0ca4\u0ccd\u0ca4 \u0ca8\u0ccb\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Tokubetsu na nani mo mitsukarimasen.",
+          "text_l2": "\u0cb5\u0cbf\u0cb6\u0cc7\u0cb7\u0cb5\u0cbe\u0ca6 \u0c8f\u0ca8\u0cc2 \u0cb8\u0cbf\u0c97\u0cc1\u0cb5\u0cc1\u0ca6\u0cbf\u0cb2\u0ccd\u0cb2."
+        },
+        {
+          "text_l1": "Kedo furui basha no ato o mitsukemasu.",
+          "text_l2": "\u0c86\u0ca6\u0cb0\u0cc6 \u0ca8\u0cc0\u0cb5\u0cc1 \u0cb9\u0cb3\u0cc6\u0caf \u0cac\u0c82\u0ca1\u0cbf\u0caf \u0c9c\u0cbe\u0ca1\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cbe\u0ca3\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Basha no ato o tadoru",
+            "text_l2": "\u0cac\u0c82\u0ca1\u0cbf\u0caf \u0c9c\u0cbe\u0ca1\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cbf\u0c82\u0cac\u0cbe\u0cb2\u0cbf\u0cb8\u0cc1"
+          },
+          "destination_id": 6
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori no naka ni modoru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cca\u0cb3\u0c97\u0cc6 \u0cae\u0cb0\u0cb3\u0cc1"
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "text_l1": "Doobutsud\u014d no Naka",
+        "text_l2": "\u0cae\u0cc3\u0c97\u0cbe\u0cb2\u0caf\u0ca6 \u0c92\u0cb3\u0c97\u0cc6"
+      },
+      "texts": [
+        {
+          "text_l1": "Doobutsud\u014d wa kuraku, h\u014dki sareteimasu.",
+          "text_l2": "\u0cae\u0cc3\u0c97\u0cbe\u0cb2\u0caf\u0cb5\u0cc1 \u0c95\u0ca4\u0ccd\u0ca4\u0cb2\u0cc6\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0cc6, \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0c95\u0cc8\u0cac\u0cbf\u0ca1\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Okude utsukushii ken ga hikatteiru no o mitsukemasu.",
+          "text_l2": "\u0c92\u0cb3\u0c97\u0cc6 \u0c92\u0c82\u0ca6\u0cc1 \u0cb8\u0cc1\u0c82\u0ca6\u0cb0\u0cb5\u0cbe\u0ca6 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf \u0cb9\u0cca\u0cb3\u0cc6\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0cb0\u0cc1\u0cb5\u0cc1\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc0\u0cb5\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Ken o toru",
+            "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca4\u0cc6\u0c97\u0cc6\u0ca6\u0cc1\u0cb9\u0cbe\u0c95\u0cc1"
+          },
+          "destination_id": 7
+        },
+        {
+          "action_text": {
+            "text_l1": "Doobutsud\u014d o deru",
+            "text_l2": "\u0cae\u0cc3\u0c97\u0cbe\u0cb2\u0caf\u0ca6\u0cbf\u0c82\u0ca6 \u0cb9\u0cca\u0cb0\u0cac\u0cb0\u0cc1"
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "text_l1": "Fukai Mori",
+        "text_l2": "\u0c86\u0cb3\u0cb5\u0cbe\u0ca6 \u0c95\u0cbe\u0ca1\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Mori wa dandan fukaku nari, kuse ni michiteimasu.",
+          "text_l2": "\u0c95\u0cbe\u0ca1\u0cc1 \u0c95\u0ccd\u0cb0\u0cae\u0cc7\u0ca3 \u0c86\u0cb3\u0cb5\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6, \u0c87\u0ca6\u0cc1 \u0caa\u0cca\u0ca6\u0cc6\u0c97\u0cb3\u0cbf\u0c82\u0ca6 \u0ca4\u0cc1\u0c82\u0cac\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Tooi ki no eda ni, akari o mitsukemasu.",
+          "text_l2": "\u0ca6\u0cc2\u0cb0\u0ca6 \u0cae\u0cb0\u0ca6 \u0c95\u0cca\u0c82\u0cac\u0cc6\u0c97\u0cc6, \u0ca8\u0cc0\u0cb5\u0cc1 \u0cac\u0cc6\u0cb3\u0c95\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Akari no hou e iku",
+            "text_l2": "\u0cac\u0cc6\u0cb3\u0c95\u0cbf\u0ca8 \u0c95\u0ca1\u0cc6\u0c97\u0cc6 \u0cb9\u0ccb\u0c97\u0cc1"
+          },
+          "destination_id": 8
+        },
+        {
+          "action_text": {
+            "text_l1": "Moto no komichi ni modoru",
+            "text_l2": "\u0cae\u0cc2\u0cb2 \u0cb9\u0cbe\u0ca6\u0cbf\u0c97\u0cc6 \u0cae\u0cb0\u0cb3\u0cc1"
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": {
+        "text_l1": "Kowareta Basha",
+        "text_l2": "\u0cae\u0cc1\u0cb0\u0cbf\u0ca6 \u0cac\u0c82\u0ca1\u0cbf"
+      },
+      "texts": [
+        {
+          "text_l1": "Basha no ato wa kowareta basha ni tsuzuiteimasu.",
+          "text_l2": "\u0cac\u0c82\u0ca1\u0cbf\u0caf \u0c9c\u0cbe\u0ca1\u0cc1 \u0cae\u0cc1\u0cb0\u0cbf\u0ca6 \u0cac\u0c82\u0ca1\u0cbf\u0c97\u0cc6 \u0cb9\u0ccb\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Basha no naka de kagi o mitsukemasu.",
+          "text_l2": "\u0cac\u0c82\u0ca1\u0cbf\u0caf\u0cca\u0cb3\u0c97\u0cc6 \u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0cc0\u0cb2\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cbe\u0ca3\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Kagi o toru",
+            "text_l2": "\u0c95\u0cc0\u0cb2\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca4\u0cc6\u0c97\u0cc6\u0ca6\u0cc1\u0cb9\u0cbe\u0c95\u0cc1"
+          },
+          "destination_id": 7
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori no naka ni modoru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cca\u0cb3\u0c97\u0cc6 \u0cae\u0cb0\u0cb3\u0cc1"
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": {
+        "text_l1": "Aitemu wo Te ni Iremashita",
+        "text_l2": "\u0cb5\u0cb8\u0ccd\u0ca4\u0cc1\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ca1\u0cc6\u0ca6\u0cc1\u0c95\u0cca\u0c82\u0ca1\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata wa arata na aitemu o te ni iremashita!",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0cb9\u0cca\u0cb8 \u0cb5\u0cb8\u0ccd\u0ca4\u0cc1\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ca1\u0cc6\u0ca6\u0cc1\u0c95\u0cca\u0c82\u0ca1\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf!"
+        },
+        {
+          "text_l1": "Tsugi ni doko e ikimasu ka?",
+          "text_l2": "\u0cae\u0cc1\u0c82\u0ca6\u0cc6 \u0c8e\u0cb2\u0ccd\u0cb2\u0cbf\u0c97\u0cc6 \u0cb9\u0ccb\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Fukai mori e susumu",
+            "text_l2": "\u0c86\u0cb3\u0cb5\u0cbe\u0ca6 \u0c95\u0cbe\u0ca1\u0cbf\u0c97\u0cc6 \u0cb8\u0cbe\u0c97\u0cc1"
+          },
+          "destination_id": 5
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori no iriguchi ni modoru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0caa\u0ccd\u0cb0\u0cb5\u0cc7\u0cb6\u0ca6\u0ccd\u0cb5\u0cbe\u0cb0\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cc1"
+          },
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": {
+        "text_l1": "Ki no Ue no Ie",
+        "text_l2": "\u0cae\u0cb0\u0ca6 \u0cae\u0cc7\u0cb2\u0cbf\u0ca8 \u0cae\u0ca8\u0cc6"
+      },
+      "texts": [
+        {
+          "text_l1": "Akari no moto ni iku to, ki no ue no ie ga arimasu.",
+          "text_l2": "\u0cac\u0cc6\u0cb3\u0c95\u0cbf\u0ca8 \u0cac\u0cb3\u0cbf\u0c97\u0cc6 \u0cb9\u0ccb\u0ca6\u0cbe\u0c97, \u0c92\u0c82\u0ca6\u0cc1 \u0cae\u0cb0\u0ca6 \u0cae\u0cc7\u0cb2\u0cbf\u0ca8 \u0cae\u0ca8\u0cc6 \u0c87\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Doa ni kagi ana ga arimasu.",
+          "text_l2": "\u0cac\u0cbe\u0c97\u0cbf\u0cb2\u0cb2\u0ccd\u0cb2\u0cbf \u0c92\u0c82\u0ca6\u0cc1 \u0c95\u0cc0\u0cb2\u0cbf\u0c95\u0cc8 \u0cb0\u0c82\u0ca7\u0ccd\u0cb0\u0cb5\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Kagi o tsukau",
+            "text_l2": "\u0c95\u0cc0\u0cb2\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cb3\u0cb8\u0cc1"
+          },
+          "destination_id": 9
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori no oku ni modoru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0c86\u0cb3\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cc1"
+          },
+          "destination_id": 5
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": {
+        "text_l1": "Himitsu no Heya",
+        "text_l2": "\u0cb0\u0cb9\u0cb8\u0ccd\u0caf \u0c95\u0cca\u0ca0\u0ca1\u0cbf"
+      },
+      "texts": [
+        {
+          "text_l1": "Kagi o tsukau to, himitsu no heya ni hairimasu.",
+          "text_l2": "\u0c95\u0cc0\u0cb2\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cb3\u0cb8\u0cbf\u0ca6\u0cbe\u0c97, \u0ca8\u0cc0\u0cb5\u0cc1 \u0cb0\u0cb9\u0cb8\u0ccd\u0caf \u0c95\u0cca\u0ca0\u0ca1\u0cbf\u0c97\u0cc6 \u0caa\u0ccd\u0cb0\u0cb5\u0cc7\u0cb6\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Tasukete kudasai! to iu koe ga kikoemasu.",
+          "text_l2": "\u0ca6\u0caf\u0cb5\u0cbf\u0c9f\u0ccd\u0c9f\u0cc1 \u0cb8\u0cb9\u0cbe\u0caf \u0cae\u0cbe\u0ca1\u0cbf! \u0c8e\u0c82\u0cac \u0ca7\u0ccd\u0cb5\u0ca8\u0cbf \u0c95\u0cc7\u0cb3\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Koe no hou e susumu",
+            "text_l2": "\u0ca7\u0ccd\u0cb5\u0ca8\u0cbf\u0caf \u0c95\u0ca1\u0cc6\u0c97\u0cc6 \u0cb8\u0cbe\u0c97\u0cc1"
+          },
+          "destination_id": 10
+        },
+        {
+          "action_text": {
+            "text_l1": "Fukaku kangaeru",
+            "text_l2": "\u0c86\u0cb3\u0cb5\u0cbe\u0c97\u0cbf \u0caf\u0ccb\u0c9a\u0cbf\u0cb8\u0cc1"
+          },
+          "destination_id": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": {
+        "text_l1": "Otosareta Hito",
+        "text_l2": "\u0cac\u0cbf\u0ca6\u0ccd\u0ca6 \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf"
+      },
+      "texts": [
+        {
+          "text_l1": "Koe no saki ni wa, otosareta hito ga imasu.",
+          "text_l2": "\u0ca7\u0ccd\u0cb5\u0ca8\u0cbf\u0caf \u0c86\u0c9a\u0cc6\u0c97\u0cc6, \u0cac\u0cbf\u0ca6\u0ccd\u0ca6 \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf\u0caf\u0cca\u0cac\u0ccd\u0cac\u0cb0\u0cc1 \u0c87\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6."
+        },
+        {
+          "text_l1": "Kare wa anata ni tazunemasu: 'Watashi no ken o mitsukete kudasai!'",
+          "text_l2": "\u0c85\u0cb5\u0cb0\u0cc1 \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cc7\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0cb0\u0cc6: '\u0ca8\u0ca8\u0ccd\u0ca8 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cc1\u0ca1\u0cc1\u0c95\u0cbf\u0cb0\u0cbf!'"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Ken o ageru",
+            "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cca\u0ca1\u0cc1"
+          },
+          "destination_id": 12
+        },
+        {
+          "action_text": {
+            "text_l1": "Jy\u014dky\u014d o kiku",
+            "text_l2": "\u0caa\u0cb0\u0cbf\u0cb8\u0ccd\u0ca5\u0cbf\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cc7\u0cb3\u0cc1"
+          },
+          "destination_id": 13
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": {
+        "text_l1": "Kangaeru",
+        "text_l2": "\u0caf\u0ccb\u0c9a\u0cbf\u0cb8\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata wa shinch\u014d ni kangaemasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c8e\u0c9a\u0ccd\u0c9a\u0cb0\u0cbf\u0c95\u0cc6\u0caf\u0cbf\u0c82\u0ca6 \u0caf\u0ccb\u0c9a\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Kono koe wa shinraigai dekiru ka?",
+          "text_l2": "\u0c88 \u0ca7\u0ccd\u0cb5\u0ca8\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0c82\u0cac\u0cac\u0cb9\u0cc1\u0ca6\u0cc7?"
+        },
+        {
+          "text_l1": "Sore tomo torappu ka?",
+          "text_l2": "\u0c85\u0ca5\u0cb5\u0cbe \u0c87\u0ca6\u0cc1 \u0c92\u0c82\u0ca6\u0cc1 \u0cac\u0cb2\u0cc6\u0ca8\u0cbe?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Koe no hou e susumu",
+            "text_l2": "\u0ca7\u0ccd\u0cb5\u0ca8\u0cbf\u0caf \u0c95\u0ca1\u0cc6\u0c97\u0cc6 \u0cb8\u0cbe\u0c97\u0cc1"
+          },
+          "destination_id": 10
+        },
+        {
+          "action_text": {
+            "text_l1": "Himitsu no heya o deru",
+            "text_l2": "\u0cb0\u0cb9\u0cb8\u0ccd\u0caf \u0c95\u0cca\u0ca0\u0ca1\u0cbf\u0caf\u0cbf\u0c82\u0ca6 \u0cb9\u0cca\u0cb0\u0cac\u0cb0\u0cc1"
+          },
+          "destination_id": 8
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": {
+        "text_l1": "Ken no Chikara",
+        "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf \u0cb6\u0c95\u0ccd\u0ca4\u0cbf"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata ga ken o ageru to, otoko wa genki ni narimasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cca\u0c9f\u0ccd\u0c9f\u0cbe\u0c97, \u0c86 \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf \u0c97\u0cc1\u0ca3\u0cae\u0cc1\u0c96\u0ca8\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6."
+        },
+        {
+          "text_l1": "Arigato! Kono mori no shujin wa warui mah\u014dtsukai da.",
+          "text_l2": "\u0ca7\u0ca8\u0ccd\u0caf\u0cb5\u0cbe\u0ca6\u0c97\u0cb3\u0cc1! \u0c88 \u0c85\u0cb0\u0ca3\u0ccd\u0caf\u0ca6 \u0cae\u0cbe\u0cb2\u0cc0\u0c95 \u0c92\u0c82\u0ca6\u0cc1 \u0ca6\u0cc1\u0cb7\u0ccd\u0c9f \u0cae\u0cbe\u0c82\u0ca4\u0ccd\u0cb0\u0cbf\u0c95."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Jutsu o taosu",
+            "text_l2": "\u0cae\u0cbe\u0c82\u0ca4\u0ccd\u0cb0\u0cbf\u0c95\u0ca8\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0ccb\u0cb2\u0cbf\u0cb8\u0cc1"
+          },
+          "destination_id": 14
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori o deru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cbf\u0c82\u0ca6 \u0cb9\u0cca\u0cb0\u0cac\u0cb0\u0cc1"
+          },
+          "destination_id": 15
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": {
+        "text_l1": "S\u014di na Hanashi",
+        "text_l2": "\u0cb5\u0cbf\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0 \u0c95\u0ca5\u0cc6"
+      },
+      "texts": [
+        {
+          "text_l1": "Sono otoko wa `Watashi wa ken o ushinatta yuusha da.` to iimasu.",
+          "text_l2": "\u0c86 \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf `\u0ca8\u0cbe\u0ca8\u0cc1 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cb3\u0cc6\u0ca6\u0cc1\u0c95\u0cca\u0c82\u0ca1 \u0cb5\u0cc0\u0cb0.` \u0c8e\u0c82\u0ca6\u0cc1 \u0cb9\u0cc7\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6."
+        },
+        {
+          "text_l1": "`Kono ken wa mori no aku o uchiyaburu chikara o motteiru.`",
+          "text_l2": "`\u0c88 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0cc1 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0ca6\u0cc1\u0cb7\u0ccd\u0c9f\u0ca4\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cbe\u0cb6\u0cae\u0cbe\u0ca1\u0cc1\u0cb5 \u0cb6\u0c95\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0ca6\u0cc6.`"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Ken o ageru",
+            "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cca\u0ca1\u0cc1"
+          },
+          "destination_id": 12
+        },
+        {
+          "action_text": {
+            "text_l1": "Ken o jibun de motsu",
+            "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0ccd\u0cb5\u0ca4\u0c83 \u0cb9\u0cbf\u0ca1\u0cbf\u0ca6\u0cbf\u0ca1\u0cc1"
+          },
+          "destination_id": 16
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": {
+        "text_l1": "Mah\u014dtsukai to no Tatakai",
+        "text_l2": "\u0cae\u0cbe\u0c82\u0ca4\u0ccd\u0cb0\u0cbf\u0c95\u0ca8\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cbf\u0ca8 \u0caf\u0cc1\u0ca6\u0ccd\u0ca7"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata to yuusha wa mah\u014dtsukai no kakurega e susumimasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cb5\u0cc0\u0cb0 \u0cae\u0cbe\u0c82\u0ca4\u0ccd\u0cb0\u0cbf\u0c95\u0ca8 \u0c85\u0ca1\u0c97\u0cc1\u0ca4\u0cbe\u0ca3\u0c95\u0ccd\u0c95\u0cc6 \u0cb8\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Ken no chikara de, warui mah\u014dtsukai o taoshimasu.",
+          "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf \u0cb6\u0c95\u0ccd\u0ca4\u0cbf\u0caf\u0cbf\u0c82\u0ca6, \u0ca6\u0cc1\u0cb7\u0ccd\u0c9f \u0cae\u0cbe\u0c82\u0ca4\u0ccd\u0cb0\u0cbf\u0c95\u0ca8\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0ccb\u0cb2\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Mori ni heiwa ga modorimasu.",
+          "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0c97\u0cc6 \u0cb6\u0cbe\u0c82\u0ca4\u0cbf \u0cae\u0cb0\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Kaeri no michi o susumu",
+            "text_l2": "\u0cae\u0cb0\u0cb3\u0cc1\u0cb5 \u0ca6\u0cbe\u0cb0\u0cbf\u0caf\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cbe\u0c97\u0cc1"
+          },
+          "destination_id": 17
+        },
+        {
+          "action_text": {
+            "text_l1": "Mori o sampo suru",
+            "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf \u0c85\u0ca1\u0ccd\u0ca1\u0cbe\u0ca1\u0cc1"
+          },
+          "destination_id": 18
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": {
+        "text_l1": "Mori o Deru",
+        "text_l2": "\u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cbf\u0c82\u0ca6 \u0cb9\u0cca\u0cb0\u0cac\u0cb0\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata wa y\u016bsha to tomo ni mori o demasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0cb5\u0cc0\u0cb0\u0ca8\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cbf\u0c82\u0ca6 \u0cb9\u0cca\u0cb0\u0cac\u0cb0\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Yuusha wa anata ni kansha o tsutaemasu.",
+          "text_l2": "\u0cb5\u0cc0\u0cb0 \u0ca8\u0cbf\u0cae\u0c97\u0cc6 \u0c95\u0cc3\u0ca4\u0c9c\u0ccd\u0c9e\u0ca4\u0cc6\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cc7\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6."
+        },
+        {
+          "text_l1": "Anata wa mori de no b\u014dken o omoide ni, atarashii tabi e.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf\u0ca8 \u0cb8\u0cbe\u0cb9\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc6\u0ca8\u0caa\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf\u0c9f\u0ccd\u0c9f\u0cc1\u0c95\u0cca\u0c82\u0ca1\u0cc1, \u0cb9\u0cca\u0cb8 \u0caa\u0ccd\u0cb0\u0caf\u0cbe\u0ca3\u0c95\u0ccd\u0c95\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Owari",
+            "text_l2": "\u0c85\u0c82\u0ca4\u0ccd\u0caf"
+          },
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": {
+        "text_l1": "Ken o Hitasura ni Motsu",
+        "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cbf\u0c97\u0cbf\u0caf\u0cbe\u0c97\u0cbf \u0cb9\u0cbf\u0ca1\u0cbf\u0ca6\u0cbf\u0ca1\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Kagi o motteiru to sh\u014dki suru to, otoko wa sabishige ni iimasu.",
+          "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf \u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb9\u0ca4\u0ccd\u0cb0 \u0c87\u0cb0\u0cc1\u0cb5\u0cc1\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc0\u0cb5\u0cc1 \u0cb8\u0cc2\u0c9a\u0cbf\u0cb8\u0cbf\u0ca6\u0cbe\u0c97, \u0c86 \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf \u0ca6\u0cc1\u0c83\u0c96\u0ca6\u0cbf\u0c82\u0ca6 \u0cb9\u0cc7\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6."
+        },
+        {
+          "text_l1": "`Kono ken wa watashi no unmei da`",
+          "text_l2": "`\u0c88 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf \u0ca8\u0ca8\u0ccd\u0ca8 \u0c85\u0ca6\u0cc3\u0cb7\u0ccd\u0c9f.`"
+        },
+        {
+          "text_l1": "Otoko wa gishinteki ni anata o hikikaeshimasu.",
+          "text_l2": "\u0c86 \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf \u0cb8\u0c82\u0ca6\u0cc7\u0cb9\u0ca6\u0cbf\u0c82\u0ca6 \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cbf\u0c82\u0ca6\u0cbf\u0cb0\u0cc1\u0c97\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Himitsu no heya o deru",
+            "text_l2": "\u0cb0\u0cb9\u0cb8\u0ccd\u0caf \u0c95\u0cca\u0ca0\u0ca1\u0cbf\u0caf\u0cbf\u0c82\u0ca6 \u0cb9\u0cca\u0cb0\u0cac\u0cb0\u0cc1"
+          },
+          "destination_id": 8
+        },
+        {
+          "action_text": {
+            "text_l1": "Ken o tsukatte tatakau",
+            "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c89\u0caa\u0caf\u0ccb\u0c97\u0cbf\u0cb8\u0cbf \u0cb9\u0ccb\u0cb0\u0cbe\u0ca1\u0cc1"
+          },
+          "destination_id": 19
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": {
+        "text_l1": "Heiwa na Kaerimichi",
+        "text_l2": "\u0cb6\u0cbe\u0c82\u0ca4\u0cbf\u0caf\u0cc1\u0ca4 \u0cae\u0cb0\u0cb3\u0cc1\u0cb5\u0cbf\u0c95\u0cc6"
+      },
+      "texts": [
+        {
+          "text_l1": "Heiwa ni michiteiru mori o aruite, kaerimichi o susumimasu.",
+          "text_l2": "\u0cb6\u0cbe\u0c82\u0ca4\u0cbf\u0caf\u0cbf\u0c82\u0ca6 \u0c95\u0cc2\u0ca1\u0cbf\u0ca6 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf \u0ca8\u0ca1\u0cc6\u0ca6\u0cc1, \u0cae\u0cb0\u0cb3\u0cc1\u0cb5 \u0ca6\u0cbe\u0cb0\u0cbf\u0caf\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_l1": "Atarashii jiko o hatsugen shimasu.",
+          "text_l2": "\u0cb5\u0cbf\u0ca8\u0cc1\u0ca4\u0ca8\u0cbe\u0ca6 \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0c82\u0ca1\u0cc1\u0cb9\u0cbf\u0ca1\u0cbf\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Owari",
+            "text_l2": "\u0c85\u0c82\u0ca4\u0ccd\u0caf"
+          },
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": {
+        "text_l1": "Shinpi no Mori",
+        "text_l2": "\u0cae\u0cc2\u0cb3\u0cbf\u0c95\u0cc6\u0caf \u0c95\u0cbe\u0ca1\u0cc1"
+      },
+      "texts": [
+        {
+          "text_l1": "Mah\u014dtsukai ga inakunari, mori wa sono shinpi o torimodoshimasu.",
+          "text_l2": "\u0cae\u0cbe\u0c82\u0ca4\u0ccd\u0cb0\u0cbf\u0c95\u0ca8\u0cc1 \u0c87\u0cb2\u0ccd\u0cb2\u0ca6 \u0ca8\u0c82\u0ca4\u0cb0, \u0c95\u0cbe\u0ca1\u0cc1 \u0ca4\u0ca8\u0ccd\u0ca8 \u0cae\u0cc2\u0cb2\u0cbf\u0c95\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cb0\u0cb3\u0cbf \u0caa\u0ca1\u0cc6\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Anata wa shizen no utsukushisa ni mitoraremasu.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0caa\u0ccd\u0cb0\u0c95\u0cc3\u0ca4\u0cbf\u0caf \u0cb8\u0ccc\u0c82\u0ca6\u0cb0\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cbe\u0cb0\u0cc1\u0cb9\u0ccb\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Owari",
+            "text_l2": "\u0c85\u0c82\u0ca4\u0ccd\u0caf"
+          },
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": {
+        "text_l1": "Yuusha to no Tatakai",
+        "text_l2": "\u0cb5\u0cc0\u0cb0\u0ca8\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cbf\u0ca8 \u0caf\u0cc1\u0ca6\u0ccd\u0ca7"
+      },
+      "texts": [
+        {
+          "text_l1": "Yuusha wa anata ga ken to tomo ni nigeyou to suru to, b\u014dryoku ni deru.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6 \u0c93\u0ca1\u0cbf\u0cb9\u0ccb\u0c97\u0cb2\u0cc1 \u0caa\u0ccd\u0cb0\u0caf\u0ca4\u0ccd\u0ca8\u0cbf\u0cb8\u0cbf\u0ca6\u0cbe\u0c97, \u0cb5\u0cc0\u0cb0 \u0cb9\u0cbf\u0c82\u0cb8\u0cc6\u0c97\u0cc6 \u0c87\u0cb3\u0cbf\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6."
+        },
+        {
+          "text_l1": "Ken no shori wa futatsu no unmei o waketa.",
+          "text_l2": "\u0c95\u0ca4\u0ccd\u0ca4\u0cbf\u0caf \u0ca8\u0cbf\u0cb0\u0ccd\u0ca7\u0cbe\u0cb0 \u0c8e\u0cb0\u0ca1\u0cc1 \u0c85\u0ca6\u0cc3\u0cb7\u0ccd\u0c9f\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cc7\u0cb0\u0ccd\u0caa\u0ca1\u0cbf\u0cb8\u0cbf\u0ca4\u0cc1."
+        },
+        {
+          "text_l1": "Anata wa yuusha o taosu. shikashi, mori no jumin kara nikumareru.",
+          "text_l2": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0cb5\u0cc0\u0cb0\u0ca8\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0ccb\u0cb2\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf. \u0c86\u0ca6\u0cb0\u0cc6, \u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0cbe\u0ca1\u0cbf\u0ca8 \u0ca8\u0cbf\u0cb5\u0cbe\u0cb8\u0cbf\u0c97\u0cb3\u0cbf\u0c82\u0ca6 \u0ca6\u0ccd\u0cb5\u0cc7\u0cb7\u0cbf\u0cb8\u0cb2\u0ccd\u0caa\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Owari",
+            "text_l2": "\u0c85\u0c82\u0ca4\u0ccd\u0caf"
+          },
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": {
+        "text_l1": "B\u014dken no Owari",
+        "text_l2": "\u0cb8\u0cbe\u0cb9\u0cb8\u0ca6 \u0c85\u0c82\u0ca4\u0ccd\u0caf"
+      },
+      "texts": [
+        {
+          "text_l1": "Anata no tabi wa koko de owarimasu.",
+          "text_l2": "\u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0caa\u0ccd\u0cb0\u0caf\u0cbe\u0ca3 \u0c87\u0cb2\u0ccd\u0cb2\u0cbf\u0c97\u0cc6 \u0cae\u0cc1\u0c97\u0cbf\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_l1": "Arigato gozaimashita!",
+          "text_l2": "\u0ca7\u0ca8\u0ccd\u0caf\u0cb5\u0cbe\u0ca6\u0c97\u0cb3\u0cc1!"
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "prompt": "\n    Generate an interactive fiction story with 20 scenes (called nodes hereafter).\n    Each Node will have a description presented line-by-line, and 1 - 4 'actions' that will link to other nodes.\n    For each bit of any kind of text generate, you will be providing the texts in Japanese Romaji and Kannada\n    This story is for a language learner to study Japanese using Kannada, so try to keep the word order in Japanese\n    and the translated word order in Kannada the same as much as possible, so that they map 1-1.\n"
+}
