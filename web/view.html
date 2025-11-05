@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IS Viewer</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <style>
+      .em {
+        font-style: italics;
+      }
+    </style>
+  </head>
+  <body>
+    <main x-data="story">
+      <template x-if="loaded">
+        <section x-show="currentNode==0">
+          <hgroup>
+            <h1 x-text="story.title.text_l1"></h1>
+            <p x-text="story.title.text_l2" class="em"></p>
+            <button x-on:click="currentNode = 1">
+              Start
+            </button>
+          </hgroup>
+        </section>
+        
+      </template>
+      <template x-if="loaded" x-for="(node, i) in story.nodes">
+        <section x-show="currentNode==node.id">
+          <hgroup>
+            <h2 x-text="node.title.text_l1"></h2>
+            <p x-text="node.title.text_l2" class="em"><p>
+          </hgroup>
+          <p>
+            <template x-for="text in node.texts">
+              <span x-text="text.text_l1 + ' '"></span>
+            </template>
+            <template x-for="(action, i) in node.actions">
+              <button 
+                x-text="action.action_text.text_l1"
+                x-on:click="currentNode = action.destination_id"
+                >
+              </button>
+            </template>
+          </p>
+          <details>
+            <summary>Show Translation</summary>
+            <div>
+              <template x-for="text in node.texts">
+                <p>
+                  <span x-text="text.text_l1"></span>
+                  <br>
+                  <span x-text="text.text_l2" class="em"></span>
+                </p>
+              </template>
+              <template x-for="(action, i) in node.actions">
+                <button x-on:click="currentNode = action.destination_id">
+                  <span x-text="action.action_text.text_l1"></span>
+                  (<span x-text="action.action_text.text_l2" class="em"></span>)
+                </button>
+              </template>
+            </div>
+          </details>
+        </section>
+      </template>
+      <template x-if="!loaded">
+        <p>Loading...</p>
+      </template>
+    </main>
+  </body>
+  <script>
+    document.addEventListener('alpine:init', async () => {
+      Alpine.data('story', () => ({
+        loaded: false,
+        story: {nodes: []},
+        currentNode: 0, 
+
+        async init() {
+          const params = new URLSearchParams(location.search);
+          const req = await fetch(params.get('storyjson'));
+          const story = await req.json();
+          this.loaded = true;
+          this.story = story;
+          console.log(story);
+        }
+      }));
+      
+    })
+  </script>
+</html>
