@@ -1,0 +1,645 @@
+{
+  "title_japanese": "\u6642\u306e\u65c5\u4eba",
+  "title_romaji": "Toki no Tabibito",
+  "title_kannada": "\u0c95\u0cbe\u0cb2\u0ca6 \u0caf\u0cbe\u0ca4\u0ccd\u0cb0\u0cbf\u0c95",
+  "nodes": [
+    {
+      "id": 1,
+      "title_japanese": "\u59cb\u307e\u308a\u306e\u68ee",
+      "title_romaji": "Hajimari no Mori",
+      "title_kannada": "\u0c86\u0cb0\u0c82\u0cad\u0ca6 \u0c85\u0cb0\u0ca3\u0ccd\u0caf",
+      "texts": [
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u53e4\u3044 \u68ee \u306e \u5965 \u306b \u7acb\u3063\u3066\u3044\u307e\u3059\u3002",
+          "text_romaji": "Anata wa furui mori no oku ni tatte imasu.",
+          "text_kannada": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0cb9\u0cb3\u0cc6\u0caf \u0c85\u0cb0\u0ca3\u0ccd\u0caf\u0ca6 \u0c92\u0cb3\u0c97\u0cc6 \u0ca8\u0cbf\u0c82\u0ca4\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_japanese": "\u592a\u967d \u306e \u5149 \u304c \u8449 \u3092 \u901a\u3057\u3066 \u5dee\u3057\u8fbc\u3093\u3067 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Taiy\u014d no hikari ga ha o t\u014dshite sashikonde imasu.",
+          "text_kannada": "\u0cb8\u0cc2\u0cb0\u0ccd\u0caf\u0ca8 \u0cac\u0cc6\u0cb3\u0c95\u0cc1 \u0c8e\u0cb2\u0cc6\u0c97\u0cb3 \u0cae\u0cc2\u0cb2\u0c95 \u0cac\u0cc0\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u9053 \u306f \u4e8c\u3064 \u306b \u5206\u304b\u308c\u3066\u3044\u307e\u3059\u3002",
+          "text_romaji": "Michi wa futatsu ni wakarete imasu.",
+          "text_kannada": "\u0ca6\u0cbe\u0cb0\u0cbf\u0caf\u0cc1 \u0c8e\u0cb0\u0ca1\u0c95\u0ccd\u0c95\u0cc6 \u0cac\u0cc7\u0cb0\u0ccd\u0caa\u0c9f\u0ccd\u0c9f\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u5de6 \u306e \u5c0f\u9053 \u3092 \u9032\u3080",
+          "text_romaji": "Hidari no komichi o susumu",
+          "text_kannada": "\u0c8e\u0ca1\u0ca6 \u0c95\u0cbf\u0cb0\u0cbf\u0ca6\u0cbe\u0ca6 \u0cb9\u0cbe\u0ca6\u0cbf\u0caf\u0cb2\u0ccd\u0cb2\u0cbf \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cb0\u0cbf\u0caf\u0cbf\u0cb0\u0cbf",
+          "destination_id": 2
+        },
+        {
+          "text_japanese": "\u53f3 \u306e \u5927\u304d\u306a \u9053 \u3092 \u9032\u3080",
+          "text_romaji": "Migi no \u014dkina michi o susumu",
+          "text_kannada": "\u0cac\u0cb2\u0ca6 \u0ca6\u0cca\u0ca1\u0ccd\u0ca1 \u0cb9\u0cbe\u0ca6\u0cbf\u0caf\u0cb2\u0ccd\u0cb2\u0cbf \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cb0\u0cbf\u0caf\u0cbf\u0cb0\u0cbf",
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_japanese": "\u9759\u304b\u306a\u6edd",
+      "title_romaji": "Shizukana Taki",
+      "title_kannada": "\u0cb6\u0cbe\u0c82\u0ca4 \u0c9c\u0cb2\u0caa\u0cbe\u0ca4",
+      "texts": [
+        {
+          "text_japanese": "\u5c0f\u9053 \u306f \u9759\u304b\u306a \u6edd \u306b \u7d9a\u3044\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Komichi wa shizukana taki ni tsuzuite imasu.",
+          "text_kannada": "\u0c95\u0cbf\u0cb0\u0cbf\u0ca6\u0cbe\u0ca6 \u0cb9\u0cbe\u0ca6\u0cbf\u0caf\u0cc1 \u0cb6\u0cbe\u0c82\u0ca4 \u0c9c\u0cb2\u0caa\u0cbe\u0ca4\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cb0\u0cbf\u0ca6\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u6edd\u306e\u88cf\u306b\u6d1e\u7a9f\u304c\u3042\u308a\u307e\u3059\u3002",
+          "text_romaji": "Taki no ura ni d\u014dkutsu ga arimasu.",
+          "text_kannada": "\u0c9c\u0cb2\u0caa\u0cbe\u0ca4\u0ca6 \u0cb9\u0cbf\u0c82\u0ca6\u0cc6 \u0c97\u0cc1\u0cb9\u0cc6\u0caf\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u6edd \u306e \u88cf \u306e \u6d1e\u7a9f \u3092 \u63a2\u7d22 \u3059\u308b",
+          "text_romaji": "Taki no ura no d\u014dkutsu o tansaku suru",
+          "text_kannada": "\u0c9c\u0cb2\u0caa\u0cbe\u0ca4\u0ca6 \u0cb9\u0cbf\u0c82\u0ca6\u0cbf\u0cb0\u0cc1\u0cb5 \u0c97\u0cc1\u0cb9\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0ca8\u0ccd\u0cb5\u0cc7\u0cb7\u0cbf\u0cb8\u0cbf",
+          "destination_id": 4
+        },
+        {
+          "text_japanese": "\u68ee \u306b \u623b\u308b",
+          "text_romaji": "Mori ni modoru",
+          "text_kannada": "\u0c85\u0cb0\u0ca3\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_japanese": "\u53e4\u3044\u6a4b",
+      "title_romaji": "Furui Hashi",
+      "title_kannada": "\u0cb9\u0cb3\u0cc6\u0caf \u0cb8\u0cc7\u0ca4\u0cc1\u0cb5\u0cc6",
+      "texts": [
+        {
+          "text_japanese": "\u5927\u304d\u306a \u9053 \u306f \u53e4\u3044 \u77f3\u6a4b \u306b \u7d9a\u3044\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "\u014ckina michi wa furui ishibashi ni tsuzuite imasu.",
+          "text_kannada": "\u0ca6\u0cca\u0ca1\u0ccd\u0ca1 \u0cb9\u0cbe\u0ca6\u0cbf\u0caf\u0cc1 \u0cb9\u0cb3\u0cc6\u0caf \u0c95\u0cb2\u0ccd\u0cb2\u0cbf\u0ca8 \u0cb8\u0cc7\u0ca4\u0cc1\u0cb5\u0cc6\u0c97\u0cc6 \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cb0\u0cbf\u0ca6\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u6a4b \u306e \u5411\u3053\u3046\u5074 \u306b \u6751 \u304c \u898b\u3048\u307e\u3059\u3002",
+          "text_romaji": "Hashi no muk\u014dgawa ni mura ga miemasu.",
+          "text_kannada": "\u0cb8\u0cc7\u0ca4\u0cc1\u0cb5\u0cc6\u0caf \u0c86\u0c9a\u0cc6\u0c97\u0cc6 \u0cb9\u0cb3\u0ccd\u0cb3\u0cbf\u0caf\u0cca\u0c82\u0ca6\u0cc1 \u0c95\u0cbe\u0ca3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u6a4b \u3092 \u6e21\u3063\u3066 \u6751 \u3078 \u884c\u304f",
+          "text_romaji": "Hashi o watatte mura e iku",
+          "text_kannada": "\u0cb8\u0cc7\u0ca4\u0cc1\u0cb5\u0cc6 \u0ca6\u0cbe\u0c9f\u0cbf \u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0c95\u0ccd\u0c95\u0cc6 \u0cb9\u0ccb\u0c97\u0cbf",
+          "destination_id": 5
+        },
+        {
+          "text_japanese": "\u68ee \u306b \u623b\u308b",
+          "text_romaji": "Mori ni modoru",
+          "text_kannada": "\u0c85\u0cb0\u0ca3\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_japanese": "\u6642\u9593\u306e\u6d1e\u7a9f",
+      "title_romaji": "Jikan no D\u014dkutsu",
+      "title_kannada": "\u0c95\u0cbe\u0cb2\u0ca6 \u0c97\u0cc1\u0cb9\u0cc6",
+      "texts": [
+        {
+          "text_japanese": "\u6d1e\u7a9f \u306e \u4e2d \u306f \u4e0d\u601d\u8b70 \u306a \u5149 \u3067 \u6e80\u305f\u3055\u308c\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "D\u014dkutsu no naka wa fushigina hikari de mitasarete imasu.",
+          "text_kannada": "\u0c97\u0cc1\u0cb9\u0cc6\u0caf \u0c92\u0cb3\u0c97\u0cc6 \u0c85\u0ca6\u0ccd\u0cad\u0cc1\u0ca4 \u0cac\u0cc6\u0cb3\u0c95\u0cbf\u0ca8\u0cbf\u0c82\u0ca6 \u0ca4\u0cc1\u0c82\u0cac\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u4e2d\u592e \u306b \u53e4\u3044 \u6642\u8a08 \u304c \u3042\u308a\u307e\u3059\u3002",
+          "text_romaji": "Ch\u016b\u014d ni furui tokei ga arimasu.",
+          "text_kannada": "\u0cae\u0ca7\u0ccd\u0caf\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cb9\u0cb3\u0cc6\u0caf \u0c98\u0ca1\u0cbf\u0caf\u0cbe\u0cb0\u0cb5\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u6642\u8a08 \u3092 \u8abf\u3079\u308b",
+          "text_romaji": "Tokei o shiraberu",
+          "text_kannada": "\u0c98\u0ca1\u0cbf\u0caf\u0cbe\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0cb0\u0cbf\u0cb6\u0cc0\u0cb2\u0cbf\u0cb8\u0cbf",
+          "destination_id": 6
+        },
+        {
+          "text_japanese": "\u6edd \u306b \u623b\u308b",
+          "text_romaji": "Taki ni modoru",
+          "text_kannada": "\u0c9c\u0cb2\u0caa\u0cbe\u0ca4\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_japanese": "\u5e73\u548c\u306a\u6751",
+      "title_romaji": "Heiwana Mura",
+      "title_kannada": "\u0cb6\u0cbe\u0c82\u0ca4\u0cbf\u0caf\u0cc1\u0ca4 \u0c97\u0ccd\u0cb0\u0cbe\u0cae",
+      "texts": [
+        {
+          "text_japanese": "\u6751\u4eba\u305f\u3061 \u306f \u3042\u306a\u305f \u3092 \u6b53\u8fce \u3057\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Murabitotachi wa anata o kangei shite imasu.",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cb8\u0ccd\u0ca5\u0cb0\u0cc1 \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0ccd\u0cb5\u0cbe\u0c97\u0ca4\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6."
+        },
+        {
+          "text_japanese": "\u5e83\u5834 \u306b \u6642\u9593 \u306b\u3064\u3044\u3066 \u306e \u5642 \u304c \u3042\u308a\u307e\u3059\u3002",
+          "text_romaji": "Hiroba ni jikan ni tsuite no uwasa ga arimasu.",
+          "text_kannada": "\u0c9a\u0ccc\u0c95\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cae\u0caf\u0ca6 \u0cac\u0c97\u0ccd\u0c97\u0cc6 \u0cb5\u0ca6\u0c82\u0ca4\u0cbf\u0c97\u0cb3\u0cbf\u0cb5\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u6751\u4eba \u3068 \u8a71\u3059",
+          "text_romaji": "Murabito to hanasu",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cb8\u0ccd\u0ca5\u0cb0\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6 \u0cae\u0cbe\u0ca4\u0ca8\u0cbe\u0ca1\u0cbf",
+          "destination_id": 7
+        },
+        {
+          "text_japanese": "\u6a4b \u306b \u623b\u308b",
+          "text_romaji": "Hashi ni modoru",
+          "text_kannada": "\u0cb8\u0cc7\u0ca4\u0cc1\u0cb5\u0cc6\u0c97\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_japanese": "\u6642\u9593\u306e\u72ed\u9593",
+      "title_romaji": "Jikan no Hazama",
+      "title_kannada": "\u0c95\u0cbe\u0cb2\u0ca6 \u0c85\u0c82\u0ca4\u0cb0",
+      "texts": [
+        {
+          "text_japanese": "\u6642\u8a08 \u306f \u52d5\u304d\u51fa\u3057\u3001 \u3042\u306a\u305f \u3092 \u904e\u53bb \u3078 \u3068 \u9001\u308a \u307e\u3059\u3002",
+          "text_romaji": "Tokei wa ugokidashi, anata o kako e to okuri masu.",
+          "text_kannada": "\u0c98\u0ca1\u0cbf\u0caf\u0cbe\u0cb0\u0cb5\u0cc1 \u0c9a\u0cb2\u0cbf\u0cb8\u0cb2\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0cb0\u0c82\u0cad\u0cbf\u0cb8\u0cbf, \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0cad\u0cc2\u0ca4\u0c95\u0cbe\u0cb2\u0c95\u0ccd\u0c95\u0cc6 \u0c95\u0cb3\u0cc1\u0cb9\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u76ee \u3092 \u899a\u307e\u3059 \u3068\u3001 \u898b\u77e5\u3089\u306c \u6642\u4ee3 \u306b \u3044\u307e\u3059\u3002",
+          "text_romaji": "Me o samasu to, mishiranu jidai ni imasu.",
+          "text_kannada": "\u0c8e\u0c9a\u0ccd\u0c9a\u0cb0\u0cb5\u0cbe\u0ca6\u0cbe\u0c97, \u0ca8\u0cbf\u0cae\u0c97\u0cc6 \u0c85\u0caa\u0cb0\u0cbf\u0c9a\u0cbf\u0ca4 \u0c95\u0cbe\u0cb2\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0c87\u0cb0\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u672a\u6765 \u3078 \u9032\u3080",
+          "text_romaji": "Mirai e susumu",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0ca4\u0ccd\u0ca4\u0cbf\u0ca8\u0cc6\u0ca1\u0cc6\u0c97\u0cc6 \u0cb8\u0cbe\u0c97\u0cbf",
+          "destination_id": 8
+        },
+        {
+          "text_japanese": "\u73fe\u5728 \u3078 \u623b\u308b",
+          "text_romaji": "Genzai e modoru",
+          "text_kannada": "\u0caa\u0ccd\u0cb0\u0cb8\u0ccd\u0ca4\u0cc1\u0ca4\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_japanese": "\u6614\u306e\u7269\u8a9e",
+      "title_romaji": "Mukashi no Monogatari",
+      "title_kannada": "\u0cb9\u0cb3\u0cc6\u0caf \u0c95\u0ca5\u0cc6",
+      "texts": [
+        {
+          "text_japanese": "\u6751\u4eba \u306f \u53e4\u3044 \u6642\u8a08 \u306e \u4f1d\u8aac \u3092 \u8a71\u3057 \u307e\u3059\u3002",
+          "text_romaji": "Murabito wa furui tokei no densetsu o hanashimasu.",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cb8\u0ccd\u0ca5\u0cb0\u0cc1 \u0cb9\u0cb3\u0cc6\u0caf \u0c98\u0ca1\u0cbf\u0caf\u0cbe\u0cb0\u0ca6 \u0ca6\u0c82\u0ca4\u0c95\u0ca5\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cc7\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0cb0\u0cc6."
+        },
+        {
+          "text_japanese": "\u305d\u308c\u306f \u6edd \u306e \u88cf \u306e \u6d1e\u7a9f \u306b \u3042\u308b \u305d\u3046\u3067\u3059\u3002",
+          "text_romaji": "Sore wa taki no ura no d\u014dkutsu ni aru s\u014d desu.",
+          "text_kannada": "\u0c85\u0ca6\u0cc1 \u0c9c\u0cb2\u0caa\u0cbe\u0ca4\u0ca6 \u0cb9\u0cbf\u0c82\u0ca6\u0cbf\u0ca8 \u0c97\u0cc1\u0cb9\u0cc6\u0caf\u0cb2\u0ccd\u0cb2\u0cbf\u0ca6\u0cc6 \u0c8e\u0c82\u0ca6\u0cc1 \u0cb9\u0cc7\u0cb3\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u6edd \u3078 \u884c\u304f",
+          "text_romaji": "Taki e iku",
+          "text_kannada": "\u0c9c\u0cb2\u0caa\u0cbe\u0ca4\u0c95\u0ccd\u0c95\u0cc6 \u0cb9\u0ccb\u0c97\u0cbf",
+          "destination_id": 2
+        },
+        {
+          "text_japanese": "\u6751 \u3092 \u63a2\u7d22 \u3059\u308b",
+          "text_romaji": "Mura o tansaku suru",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0ca8\u0ccd\u0cb5\u0cc7\u0cb7\u0cbf\u0cb8\u0cbf",
+          "destination_id": 9
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_japanese": "\u8352\u5ec3\u3057\u305f\u672a\u6765\u90fd\u5e02",
+      "title_romaji": "K\u014dhai shita Mirai Toshi",
+      "title_kannada": "\u0cb5\u0cbf\u0ca7\u0ccd\u0cb5\u0c82\u0cb8\u0c97\u0cca\u0c82\u0ca1 \u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0ca6 \u0ca8\u0c97\u0cb0",
+      "texts": [
+        {
+          "text_japanese": "\u8857 \u306f \u8352\u5ec3 \u3057\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Machi wa k\u014dhai shite imasu.",
+          "text_kannada": "\u0ca8\u0c97\u0cb0\u0cb5\u0cc1 \u0cb5\u0cbf\u0ca7\u0ccd\u0cb5\u0c82\u0cb8\u0c97\u0cca\u0c82\u0ca1\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u9060\u304f\u3067\u5947\u5999\u306a\u97f3\u304c\u3057\u307e\u3059\u3002",
+          "text_romaji": "T\u014dku de kimy\u014dna oto ga shimasu.",
+          "text_kannada": "\u0ca6\u0cc2\u0cb0\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cb5\u0cbf\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0 \u0cb6\u0cac\u0ccd\u0ca6 \u0c95\u0cc7\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u97f3 \u306e \u65b9\u5411 \u3078 \u884c\u304f",
+          "text_romaji": "Oto no h\u014dk\u014d e iku",
+          "text_kannada": "\u0cb6\u0cac\u0ccd\u0ca6\u0ca6 \u0ca6\u0cbf\u0c95\u0ccd\u0c95\u0cbf\u0c97\u0cc6 \u0cb9\u0ccb\u0c97\u0cbf",
+          "destination_id": 10
+        },
+        {
+          "text_japanese": "\u5225\u306e \u6642\u9593 \u3078 \u623b\u308b",
+          "text_romaji": "Betsuno jikan e modoru",
+          "text_kannada": "\u0c87\u0ca8\u0ccd\u0ca8\u0cca\u0c82\u0ca6\u0cc1 \u0c95\u0cbe\u0cb2\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 6
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title_japanese": "\u6751\u306e\u56f3\u66f8\u9928",
+      "title_romaji": "Mura no Toshokan",
+      "title_kannada": "\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0ca6 \u0c97\u0ccd\u0cb0\u0c82\u0ca5\u0cbe\u0cb2\u0caf",
+      "texts": [
+        {
+          "text_japanese": "\u56f3\u66f8\u9928 \u3067 \u53e4\u3044 \u5dfb\u7269 \u3092 \u898b\u3064\u3051\u307e\u3057\u305f\u3002",
+          "text_romaji": "Toshokan de furui makimono o mitsukemashita.",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0c82\u0ca5\u0cbe\u0cb2\u0caf\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cb9\u0cb3\u0cc6\u0caf \u0cb8\u0cc1\u0cb0\u0cc1\u0cb3\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0c82\u0ca1\u0cc1\u0c95\u0cca\u0c82\u0ca1\u0cbf\u0cb0\u0cbf."
+        },
+        {
+          "text_japanese": "\u305d\u308c \u306f \u6642\u9593 \u306e \u65c5 \u306b\u3064\u3044\u3066 \u66f8\u304b\u308c\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Sore wa jikan no tabi ni tsuite kakarete imasu.",
+          "text_kannada": "\u0c85\u0ca6\u0cc1 \u0cb8\u0cae\u0caf \u0caa\u0ccd\u0cb0\u0caf\u0cbe\u0ca3\u0ca6 \u0cac\u0c97\u0ccd\u0c97\u0cc6 \u0cac\u0cb0\u0cc6\u0caf\u0cb2\u0ccd\u0caa\u0c9f\u0ccd\u0c9f\u0cbf\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u5dfb\u7269 \u3092 \u8aad\u3080",
+          "text_romaji": "Makimono o yomu",
+          "text_kannada": "\u0cb8\u0cc1\u0cb0\u0cc1\u0cb3\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c93\u0ca6\u0cbf",
+          "destination_id": 11
+        },
+        {
+          "text_japanese": "\u6751 \u306e \u5e83\u5834 \u306b \u623b\u308b",
+          "text_romaji": "Mura no hiroba ni modoru",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0ca6 \u0c9a\u0ccc\u0c95\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title_japanese": "\u6642\u9593\u4fee\u5fa9\u88c5\u7f6e",
+      "title_romaji": "Jikan Sh\u016bfuku S\u014dchi",
+      "title_kannada": "\u0c95\u0cbe\u0cb2 \u0ca6\u0cc1\u0cb0\u0cb8\u0ccd\u0ca4\u0cbf \u0cb8\u0cbe\u0ca7\u0ca8",
+      "texts": [
+        {
+          "text_japanese": "\u97f3 \u306e \u6e90 \u306f \u5de8\u5927 \u306a \u6a5f\u68b0 \u3067\u3057\u305f\u3002",
+          "text_romaji": "Oto no minamoto wa kyodai na kikai deshita.",
+          "text_kannada": "\u0cb6\u0cac\u0ccd\u0ca6\u0ca6 \u0cae\u0cc2\u0cb2\u0cb5\u0cc1 \u0c92\u0c82\u0ca6\u0cc1 \u0ca6\u0cca\u0ca1\u0ccd\u0ca1 \u0caf\u0c82\u0ca4\u0ccd\u0cb0\u0cb5\u0cbe\u0c97\u0cbf\u0ca4\u0ccd\u0ca4\u0cc1."
+        },
+        {
+          "text_japanese": "\u305d\u308c \u306f \u6642\u9593 \u306e \u6d41\u308c \u3092 \u5b89\u5b9a \u3055\u305b\u308b \u305f\u3081 \u306e \u3082\u306e \u3067\u3059\u3002",
+          "text_romaji": "Sore wa jikan no nagare o antei saseru tame no mono desu.",
+          "text_kannada": "\u0c85\u0ca6\u0cc1 \u0c95\u0cbe\u0cb2\u0ca6 \u0cb9\u0cb0\u0cbf\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0ccd\u0ca5\u0cbf\u0cb0\u0c97\u0cca\u0cb3\u0cbf\u0cb8\u0cc1\u0cb5\u0cc1\u0ca6\u0c95\u0ccd\u0c95\u0cbe\u0c97\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u6a5f\u68b0 \u3092 \u64cd\u4f5c \u3059\u308b",
+          "text_romaji": "Kikai o s\u014dsa suru",
+          "text_kannada": "\u0caf\u0c82\u0ca4\u0ccd\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cbe\u0cb0\u0ccd\u0caf\u0ca8\u0cbf\u0cb0\u0ccd\u0cb5\u0cb9\u0cbf\u0cb8\u0cbf",
+          "destination_id": 12
+        },
+        {
+          "text_japanese": "\u672a\u6765 \u90fd\u5e02 \u3092 \u63a2\u7d22 \u3059\u308b",
+          "text_romaji": "Mirai toshi o tansaku suru",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0ca6 \u0ca8\u0c97\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0ca8\u0ccd\u0cb5\u0cc7\u0cb7\u0cbf\u0cb8\u0cbf",
+          "destination_id": 8
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title_japanese": "\u5931\u308f\u308c\u305f\u77e5\u8b58",
+      "title_romaji": "Ushinawareta Chishiki",
+      "title_kannada": "\u0c95\u0cb3\u0cc6\u0ca6\u0cc1\u0cb9\u0ccb\u0ca6 \u0c9c\u0ccd\u0c9e\u0cbe\u0ca8",
+      "texts": [
+        {
+          "text_japanese": "\u5dfb\u7269 \u306b \u306f\u3001 \u6642\u9593 \u304c \u58ca\u308c\u3066 \u3044\u308b \u3068 \u66f8\u304b\u308c\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Makimono ni wa, jikan ga kowarete iru to kakarete imasu.",
+          "text_kannada": "\u0cb8\u0cc1\u0cb0\u0cc1\u0cb3\u0cbf\u0caf\u0cb2\u0ccd\u0cb2\u0cbf, \u0cb8\u0cae\u0caf\u0cb5\u0cc1 \u0cb9\u0cbe\u0cb3\u0cbe\u0c97\u0cbf\u0ca6\u0cc6 \u0c8e\u0c82\u0ca6\u0cc1 \u0cac\u0cb0\u0cc6\u0caf\u0cb2\u0ccd\u0caa\u0c9f\u0ccd\u0c9f\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u305d\u3057\u3066\u3001 \u305d\u308c \u3092 \u4fee\u5fa9 \u3059\u308b \u65b9\u6cd5 \u3082\u3002",
+          "text_romaji": "Soshite, sore o sh\u016bfuku suru h\u014dh\u014d mo.",
+          "text_kannada": "\u0cae\u0ca4\u0ccd\u0ca4\u0cc1, \u0c85\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca6\u0cc1\u0cb0\u0cb8\u0ccd\u0ca4\u0cbf \u0cae\u0cbe\u0ca1\u0cc1\u0cb5 \u0cb5\u0cbf\u0ca7\u0cbe\u0ca8\u0cb5\u0cc2."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u672a\u6765 \u3078 \u884c\u304f",
+          "text_romaji": "Mirai e iku",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0cb9\u0ccb\u0c97\u0cbf",
+          "destination_id": 8
+        },
+        {
+          "text_japanese": "\u6d1e\u7a9f \u3078 \u623b\u308b",
+          "text_romaji": "D\u014dkutsu e modoru",
+          "text_kannada": "\u0c97\u0cc1\u0cb9\u0cc6\u0c97\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title_japanese": "\u6642\u9593\u306e\u4fee\u5fa9",
+      "title_romaji": "Jikan no Sh\u016bfuku",
+      "title_kannada": "\u0c95\u0cbe\u0cb2\u0ca6 \u0ca6\u0cc1\u0cb0\u0cb8\u0ccd\u0ca4\u0cbf",
+      "texts": [
+        {
+          "text_japanese": "\u6a5f\u68b0 \u3092 \u64cd\u4f5c \u3059\u308b\u3068\u3001 \u6642\u9593 \u304c \u5143 \u306b \u623b\u308a\u59cb\u3081\u307e\u3059\u3002",
+          "text_romaji": "Kikai o s\u014dsa suru to, jikan ga moto ni modorihajimemasu.",
+          "text_kannada": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0caf\u0c82\u0ca4\u0ccd\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cbe\u0cb0\u0ccd\u0caf\u0ca8\u0cbf\u0cb0\u0ccd\u0cb5\u0cb9\u0cbf\u0cb8\u0cbf\u0ca6\u0cbe\u0c97, \u0cb8\u0cae\u0caf\u0cb5\u0cc1 \u0cb8\u0cb9\u0c9c \u0cb8\u0ccd\u0ca5\u0cbf\u0ca4\u0cbf\u0c97\u0cc6 \u0cae\u0cb0\u0cb3\u0cb2\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0cb0\u0c82\u0cad\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u4e16\u754c \u306f \u660e\u308b\u3055 \u3092 \u53d6\u308a\u623b\u3057\u307e\u3059\u3002",
+          "text_romaji": "Sekai wa akarusa o torimodoshimasu.",
+          "text_kannada": "\u0caa\u0ccd\u0cb0\u0caa\u0c82\u0c9a\u0cb5\u0cc1 \u0c85\u0ca6\u0cb0 \u0cb9\u0cca\u0cb3\u0caa\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cb0\u0cb3\u0cbf \u0caa\u0ca1\u0cc6\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u73fe\u5728 \u306b \u623b\u308b",
+          "text_romaji": "Genzai ni modoru",
+          "text_kannada": "\u0caa\u0ccd\u0cb0\u0cb8\u0ccd\u0ca4\u0cc1\u0ca4\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 13
+        },
+        {
+          "text_japanese": "\u672a\u6765 \u306b \u7559\u307e\u308b",
+          "text_romaji": "Mirai ni tomaru",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0c89\u0cb3\u0cbf\u0caf\u0cbf\u0cb0\u0cbf",
+          "destination_id": 14
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title_japanese": "\u5e73\u548c\u306a\u73fe\u5728",
+      "title_romaji": "Heiwana Genzai",
+      "title_kannada": "\u0cb6\u0cbe\u0c82\u0ca4\u0cbf\u0caf\u0cc1\u0ca4 \u0caa\u0ccd\u0cb0\u0cb8\u0ccd\u0ca4\u0cc1\u0ca4",
+      "texts": [
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u68ee \u306b \u623b\u3063\u3066 \u304d\u307e\u3057\u305f\u3002",
+          "text_romaji": "Anata wa mori ni modotte kimashita.",
+          "text_kannada": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c85\u0cb0\u0ca3\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf \u0cac\u0c82\u0ca6\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_japanese": "\u3059\u3079\u3066 \u304c \u4ee5\u524d \u3088\u308a \u9bae\u3084\u304b \u3067\u3059\u3002",
+          "text_romaji": "Subete ga izen yori azayaka desu.",
+          "text_kannada": "\u0c8e\u0cb2\u0ccd\u0cb2\u0cb5\u0cc2 \u0cb9\u0cbf\u0c82\u0ca6\u0cbf\u0c97\u0cbf\u0c82\u0ca4\u0cb2\u0cc2 \u0cb9\u0cc6\u0c9a\u0ccd\u0c9a\u0cc1 \u0cb5\u0cb0\u0ccd\u0ca3\u0cae\u0caf\u0cb5\u0cbe\u0c97\u0cbf\u0cb5\u0cc6."
+        },
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306e \u5192\u967a \u306f \u7d42\u308f\u308a \u307e\u3057\u305f\u3002",
+          "text_romaji": "Anata no b\u014dken wa owarimashita.",
+          "text_kannada": "\u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb8\u0cbe\u0cb9\u0cb8\u0cb5\u0cc1 \u0c95\u0cca\u0ca8\u0cc6\u0c97\u0cca\u0c82\u0ca1\u0cbf\u0ca4\u0cc1."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u65b0\u3057\u3044 \u5192\u967a \u3092 \u59cb\u3081\u308b",
+          "text_romaji": "Atarashii b\u014dken o hajimeru",
+          "text_kannada": "\u0cb9\u0cca\u0cb8 \u0cb8\u0cbe\u0cb9\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0cb0\u0c82\u0cad\u0cbf\u0cb8\u0cbf",
+          "destination_id": 1
+        },
+        {
+          "text_japanese": "\u7269\u8a9e \u3092 \u7d42\u3048\u308b",
+          "text_romaji": "Monogatari o oeru",
+          "text_kannada": "\u0c95\u0ca5\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cc1\u0c97\u0cbf\u0cb8\u0cbf",
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title_japanese": "\u65b0\u3057\u3044\u672a\u6765",
+      "title_romaji": "Atarashii Mirai",
+      "title_kannada": "\u0cb9\u0cca\u0cb8 \u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf",
+      "texts": [
+        {
+          "text_japanese": "\u672a\u6765 \u306f \u4fee\u5fa9 \u3055\u308c\u3001 \u65b0\u3057\u3044 \u547d \u304c \u59cb\u307e\u3063\u3066\u3044\u307e\u3059\u3002",
+          "text_romaji": "Mirai wa sh\u016bfuku sare, atarashii inochi ga hajimatte imasu.",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0cb5\u0cc1 \u0ca6\u0cc1\u0cb0\u0cb8\u0ccd\u0ca4\u0cbf\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0cc6, \u0cb9\u0cca\u0cb8 \u0c9c\u0cc0\u0cb5\u0ca8 \u0caa\u0ccd\u0cb0\u0cbe\u0cb0\u0c82\u0cad\u0cb5\u0cbe\u0c97\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u3053\u306e \u65b0\u3057\u3044 \u4e16\u754c \u3067 \u751f\u304d\u308b \u3053\u3068\u3092 \u9078\u3073\u307e\u3057\u305f\u3002",
+          "text_romaji": "Anata wa kono atarashii sekai de ikiru koto o erabimashita.",
+          "text_kannada": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c88 \u0cb9\u0cca\u0cb8 \u0caa\u0ccd\u0cb0\u0caa\u0c82\u0c9a\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cac\u0ca6\u0cc1\u0c95\u0cb2\u0cc1 \u0c86\u0cb0\u0cbf\u0cb8\u0cbf\u0c95\u0cca\u0c82\u0ca1\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u672a\u6765 \u3092 \u63a2\u7d22 \u3059\u308b",
+          "text_romaji": "Mirai o tansaku suru",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0ca8\u0ccd\u0cb5\u0cc7\u0cb7\u0cbf\u0cb8\u0cbf",
+          "destination_id": 15
+        },
+        {
+          "text_japanese": "\u7269\u8a9e \u3092 \u7d42\u3048\u308b",
+          "text_romaji": "Monogatari o oeru",
+          "text_kannada": "\u0c95\u0ca5\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cc1\u0c97\u0cbf\u0cb8\u0cbf",
+          "destination_id": 20
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title_japanese": "\u672a\u6765\u306e\u56f3\u66f8\u9928",
+      "title_romaji": "Mirai no Toshokan",
+      "title_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0ca6 \u0c97\u0ccd\u0cb0\u0c82\u0ca5\u0cbe\u0cb2\u0caf",
+      "texts": [
+        {
+          "text_japanese": "\u672a\u6765 \u306e \u56f3\u66f8\u9928 \u306f \u5de8\u5927 \u3067\u3001 \u30db\u30ed\u30b0\u30e9\u30e0 \u3067 \u6e80\u305f\u3055\u308c\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Mirai no toshokan wa kyodai de, horoguramu de mitasarete imasu.",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0ca6 \u0c97\u0ccd\u0cb0\u0c82\u0ca5\u0cbe\u0cb2\u0caf\u0cb5\u0cc1 \u0ca6\u0cca\u0ca1\u0ccd\u0ca1\u0ca6\u0cbe\u0c97\u0cbf\u0ca6\u0cc6 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cb9\u0ccb\u0cb2\u0ccb\u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0ccd\u0c97\u0cb3\u0cbf\u0c82\u0ca6 \u0ca4\u0cc1\u0c82\u0cac\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u65b0\u3057\u3044 \u77e5\u8b58 \u3092 \u5f97\u307e\u3059\u3002",
+          "text_romaji": "Anata wa atarashii chishiki o emasu.",
+          "text_kannada": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0cb9\u0cca\u0cb8 \u0c9c\u0ccd\u0c9e\u0cbe\u0ca8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ca1\u0cc6\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u904e\u53bb \u306e \u6b74\u53f2 \u3092 \u8abf\u3079\u308b",
+          "text_romaji": "Kako no rekishi o shiraberu",
+          "text_kannada": "\u0cad\u0cc2\u0ca4\u0c95\u0cbe\u0cb2\u0ca6 \u0c87\u0ca4\u0cbf\u0cb9\u0cbe\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0cb0\u0cbf\u0cb6\u0cc0\u0cb2\u0cbf\u0cb8\u0cbf",
+          "destination_id": 16
+        },
+        {
+          "text_japanese": "\u4ed6\u306e \u5730\u533a \u3092 \u63a2\u7d22 \u3059\u308b",
+          "text_romaji": "Hoka no chiku o tansaku suru",
+          "text_kannada": "\u0c87\u0ca4\u0cb0 \u0caa\u0ccd\u0cb0\u0ca6\u0cc7\u0cb6\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0ca8\u0ccd\u0cb5\u0cc7\u0cb7\u0cbf\u0cb8\u0cbf",
+          "destination_id": 17
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title_japanese": "\u6b74\u53f2\u306e\u518d\u767a\u898b",
+      "title_romaji": "Rekishi no Saihakken",
+      "title_kannada": "\u0c87\u0ca4\u0cbf\u0cb9\u0cbe\u0cb8\u0ca6 \u0cae\u0cb0\u0cc1\u0cb6\u0ccb\u0ca7\u0ca8\u0cc6",
+      "texts": [
+        {
+          "text_japanese": "\u904e\u53bb \u306e \u6b74\u53f2 \u3092 \u8abf\u3079\u308b \u3068\u3001 \u3042\u306a\u305f \u306e \u5192\u967a \u304c \u8a18\u9332 \u3055\u308c\u3066 \u3044\u307e\u3057\u305f\u3002",
+          "text_romaji": "Kako no rekishi o shiraberu to, anata no b\u014dken ga kiroku sarete imashita.",
+          "text_kannada": "\u0cad\u0cc2\u0ca4\u0c95\u0cbe\u0cb2\u0ca6 \u0c87\u0ca4\u0cbf\u0cb9\u0cbe\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0cb0\u0cbf\u0cb6\u0cc0\u0cb2\u0cbf\u0cb8\u0cbf\u0ca6\u0cbe\u0c97, \u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb8\u0cbe\u0cb9\u0cb8\u0cb5\u0cc1 \u0ca6\u0cbe\u0c96\u0cb2\u0cbe\u0c97\u0cbf\u0ca4\u0ccd\u0ca4\u0cc1."
+        },
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u4f1d\u8aac \u306e \u30d2\u30fc\u30ed\u30fc \u3067\u3059\u3002",
+          "text_romaji": "Anata wa densetsu no h\u012br\u014d desu.",
+          "text_kannada": "\u0ca8\u0cc0\u0cb5\u0cc1 \u0c92\u0c82\u0ca6\u0cc1 \u0c90\u0ca4\u0cbf\u0cb9\u0cbe\u0cb8\u0cbf\u0c95 \u0ca8\u0cbe\u0caf\u0c95."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u7269\u8a9e \u3092 \u7d42\u3048\u308b",
+          "text_romaji": "Monogatari o oeru",
+          "text_kannada": "\u0c95\u0ca5\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cc1\u0c97\u0cbf\u0cb8\u0cbf",
+          "destination_id": 20
+        },
+        {
+          "text_japanese": "\u65b0\u3057\u3044 \u6b74\u53f2 \u3092 \u4f5c\u308b",
+          "text_romaji": "Atarashii rekishi o tsukuru",
+          "text_kannada": "\u0cb9\u0cca\u0cb8 \u0c87\u0ca4\u0cbf\u0cb9\u0cbe\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb0\u0c9a\u0cbf\u0cb8\u0cbf",
+          "destination_id": 18
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title_japanese": "\u6d3b\u6c17\u3042\u308b\u672a\u6765",
+      "title_romaji": "Kakkiaru Mirai",
+      "title_kannada": "\u0c9a\u0cc8\u0ca4\u0ca8\u0ccd\u0caf\u0ca6 \u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf",
+      "texts": [
+        {
+          "text_japanese": "\u90fd\u5e02 \u306f \u6d3b\u6c17 \u306b \u6e80\u3061\u3066 \u3044\u307e\u3059\u3002",
+          "text_romaji": "Toshi wa kakki ni michite imasu.",
+          "text_kannada": "\u0ca8\u0c97\u0cb0\u0cb5\u0cc1 \u0c9a\u0cc8\u0ca4\u0ca8\u0ccd\u0caf\u0ca6\u0cbf\u0c82\u0ca6 \u0ca4\u0cc1\u0c82\u0cac\u0cbf\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u4eba\u3005 \u306f \u5e78\u305b \u305d\u3046\u3067\u3059\u3002",
+          "text_romaji": "Hitobito wa shiawase s\u014d desu.",
+          "text_kannada": "\u0c9c\u0ca8\u0cb0\u0cc1 \u0cb8\u0c82\u0ca4\u0ccb\u0cb7\u0cb5\u0cbe\u0c97\u0cbf \u0c95\u0cbe\u0ca3\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0cb0\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u672a\u6765 \u3092 \u6e80\u55ab \u3059\u308b",
+          "text_romaji": "Mirai o mankitsu suru",
+          "text_kannada": "\u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0c82\u0caa\u0cc2\u0cb0\u0ccd\u0ca3\u0cb5\u0cbe\u0c97\u0cbf \u0c86\u0ca8\u0c82\u0ca6\u0cbf\u0cb8\u0cbf",
+          "destination_id": 19
+        },
+        {
+          "text_japanese": "\u56f3\u66f8\u9928 \u3078 \u623b\u308b",
+          "text_romaji": "Toshokan e modoru",
+          "text_kannada": "\u0c97\u0ccd\u0cb0\u0c82\u0ca5\u0cbe\u0cb2\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0cae\u0cb0\u0cb3\u0cbf",
+          "destination_id": 15
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title_japanese": "\u81ea\u5df1\u306e\u78ba\u7acb",
+      "title_romaji": "Jiko no Kakuritsu",
+      "title_kannada": "\u0cb8\u0ccd\u0cb5\u0ca4\u0c82\u0ca4\u0ccd\u0cb0 \u0cb8\u0ccd\u0ca5\u0cbe\u0caa\u0ca8\u0cc6",
+      "texts": [
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u81ea\u5206 \u306e \u672a\u6765 \u3092 \u4f5c\u308b \u3053\u3068\u3092 \u6c7a\u610f \u3057\u307e\u3057\u305f\u3002",
+          "text_romaji": "Anata wa jibun no mirai o tsukuru koto o ketsui shimashita.",
+          "text_kannada": "\u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb8\u0ccd\u0cb5\u0c82\u0ca4 \u0cad\u0cb5\u0cbf\u0cb7\u0ccd\u0caf\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cbf\u0cb0\u0ccd\u0cae\u0cbf\u0cb8\u0cb2\u0cc1 \u0ca8\u0cc0\u0cb5\u0cc1 \u0ca8\u0cbf\u0cb0\u0ccd\u0ca7\u0cb0\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_japanese": "\u7269\u8a9e \u306f \u7d9a\u304d\u307e\u3059\u3002",
+          "text_romaji": "Monogatari wa tsuzukimasu.",
+          "text_kannada": "\u0c95\u0ca5\u0cc6 \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cb0\u0cbf\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u7269\u8a9e \u3092 \u7d42\u3048\u308b",
+          "text_romaji": "Monogatari o oeru",
+          "text_kannada": "\u0c95\u0ca5\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cc1\u0c97\u0cbf\u0cb8\u0cbf",
+          "destination_id": 20
+        },
+        {
+          "text_japanese": "\u65b0\u3057\u3044 \u5192\u967a \u3092 \u59cb\u3081\u308b",
+          "text_romaji": "Atarashii b\u014dken o hajimeru",
+          "text_kannada": "\u0cb9\u0cca\u0cb8 \u0cb8\u0cbe\u0cb9\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0cb0\u0c82\u0cad\u0cbf\u0cb8\u0cbf",
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title_japanese": "\u7d42\u308f\u308a\u306a\u304d\u65c5",
+      "title_romaji": "Owarinaki Tabi",
+      "title_kannada": "\u0c85\u0c82\u0ca4\u0ccd\u0caf\u0cb5\u0cbf\u0cb2\u0ccd\u0cb2\u0ca6 \u0caa\u0ccd\u0cb0\u0caf\u0cbe\u0ca3",
+      "texts": [
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306f \u6642\u9593 \u306e \u65c5\u4eba \u3068\u3057\u3066\u3001 \u3055\u307e\u3056\u307e\u306a \u6642\u4ee3 \u3092 \u5de1\u308a\u307e\u3059\u3002",
+          "text_romaji": "Anata wa jikan no tabibito to shite, samazamana jidai o megurimasu.",
+          "text_kannada": "\u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb8\u0cae\u0caf\u0ca6 \u0caf\u0cbe\u0ca4\u0ccd\u0cb0\u0cbf\u0c95\u0cb0\u0cbe\u0c97\u0cbf, \u0ca8\u0cc0\u0cb5\u0cc1 \u0cb5\u0cbf\u0cb5\u0cbf\u0ca7 \u0c95\u0cbe\u0cb2\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf."
+        },
+        {
+          "text_japanese": "\u7269\u8a9e \u306f \u6c38\u9060 \u306b \u7d9a\u304d \u307e\u3059\u3002",
+          "text_romaji": "Monogatari wa eien ni tsuzukimasu.",
+          "text_kannada": "\u0c95\u0ca5\u0cc6 \u0cb6\u0cbe\u0cb6\u0ccd\u0cb5\u0ca4\u0cb5\u0cbe\u0c97\u0cbf \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cb0\u0cc6\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        }
+      ],
+      "actions": [
+        {
+          "text_japanese": "\u7269\u8a9e \u3092 \u7d42\u3048\u308b",
+          "text_romaji": "Monogatari o oeru",
+          "text_kannada": "\u0c95\u0ca5\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cc1\u0c97\u0cbf\u0cb8\u0cbf",
+          "destination_id": 20
+        },
+        {
+          "text_japanese": "\u518d\u3073 \u65c5\u7acb\u3064",
+          "text_romaji": "Futatabi tabidatsu",
+          "text_kannada": "\u0c86\u0c97 \u0cae\u0ca4\u0ccd\u0ca4\u0cc6 \u0caa\u0ccd\u0cb0\u0caf\u0cbe\u0ca3\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0cb0\u0c82\u0cad\u0cbf\u0cb8\u0cbf",
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title_japanese": "\u7269\u8a9e\u306e\u7d42\u308f\u308a",
+      "title_romaji": "Monogatari no Owari",
+      "title_kannada": "\u0c95\u0ca5\u0cc6\u0caf \u0c85\u0c82\u0ca4\u0ccd\u0caf",
+      "texts": [
+        {
+          "text_japanese": "\u3042\u306a\u305f \u306e \u7d20\u6674\u3089\u3057\u3044 \u65c5 \u306f \u3053\u3053 \u3067 \u7d42\u308f\u308a \u3067\u3059\u3002",
+          "text_romaji": "Anata no subarashii tabi wa koko de owari desu.",
+          "text_kannada": "\u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0c85\u0ca6\u0ccd\u0cad\u0cc1\u0ca4 \u0caa\u0ccd\u0cb0\u0caf\u0cbe\u0ca3 \u0c87\u0cb2\u0ccd\u0cb2\u0cbf\u0c97\u0cc6 \u0cae\u0cc1\u0c97\u0cbf\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+        },
+        {
+          "text_japanese": "\u304a\u75b2\u308c\u69d8\u3067\u3057\u305f\u3002",
+          "text_romaji": "Otsukaresama deshita.",
+          "text_kannada": "\u0cb6\u0ccd\u0cb0\u0cae\u0c95\u0ccd\u0c95\u0cc6 \u0ca7\u0ca8\u0ccd\u0caf\u0cb5\u0cbe\u0ca6\u0c97\u0cb3\u0cc1."
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "prompt": "\n    Generate an interactive fiction story with 20 scenes (called nodes hereafter).\n    Each Node will have a description presented line-by-line, and 1 - 4 'actions' that will link to other nodes.\n    For each bit of any kind of text generate, you will be providing the texts in Japanese, Romaji and Kannada\n    This story is for a language learner to study Japanese using Kannada, so try to keep the word order in Japanese\n    and the translated word order in Kannada the same as much as possible, so that they map 1-1.\n"
+}

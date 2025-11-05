@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 import os
 from typing import List
@@ -10,8 +11,8 @@ from pydantic_ai.providers.openai import OpenAIProvider
 import config
 
 
-OUTPUT_DIR = Path('outputs')
-OUTPUT_FILE = OUTPUT_DIR / 'test.json'
+OUTPUT_DIR = Path('outputs') / 'test'
+os.makedirs('outputs', exist_ok = True)
 os.makedirs(OUTPUT_DIR, exist_ok = True)
 
 
@@ -65,5 +66,7 @@ ai_agent = Agent(
 )
 
 ai_result = ai_agent.run_sync(PROMPT)
-with open(OUTPUT_FILE, 'w') as f:
-    f.write(ai_result.output.model_dump_json(indent=2))
+with open(OUTPUT_DIR / 'story.json', 'w') as f:
+    output = json.loads(ai_result.output.model_dump_json())
+    output['prompt'] = PROMPT
+    f.write(json.dumps(output, indent=2))
