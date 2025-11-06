@@ -80,3 +80,25 @@ details summary {
   cursor: pointer;
   padding: 1rem 0;
 }
+
+.action-form {
+  background: var(--bg);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 1rem;
+  border-top: 0.1rem solid var(--bg1);
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.action-form input {
+  font-size: 0.9rem;
+  color: inherit;
+  background: inherit;
+  border: none;
+  outline: none;
+}

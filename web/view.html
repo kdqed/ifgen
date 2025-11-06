@@ -41,7 +41,6 @@
             <template x-for="(action, i) in node.actions">
               <button 
                 x-text="action.action_text.text_l1"
-                x-on:click="currentNode = action.destination_id"
                 >
               </button>
             </template>
@@ -57,14 +56,19 @@
                 </p>
               </template>
               <template x-for="(action, i) in node.actions">
-                <button x-on:click="currentNode = action.destination_id">
+                <button>
                   <span x-text="action.action_text.text_l1"></span><br>
                   (<span x-text="action.action_text.text_l2" class="em"></span>)
                 </button>
               </template>
             </div>
           </details>
+          <form class="action-form" x-on:submit.prevent="takeAction(event, node.actions)">
+            <input type="text" name="player-action" placeholder="Type Action Here..." required>
+            <button>-&gt</button>
+          </form>
         </section>
+        
       </template>
       <template x-if="!loaded">
         <p>Loading...</p>
@@ -86,9 +90,27 @@
           this.loaded = true;
           this.story = story;
           console.log(story);
+        },
+
+        async takeAction(event, actions) {
+          const userInput = event.target.querySelector('input').value;
+          for(let i=0; i<actions.length; i++) {
+            if(actionEquals(userInput, actions[i].action_text.text_l1)) {
+              this.currentNode = actions[i].destination_id;
+              event.target.querySelector('input').value = '';
+              return;
+            }
+          }
+          alert('Invalid action');
         }
       }));
       
-    })
+    });
+
+    function actionEquals(t1, t2) {
+      //const ct1 = t1.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+      //const ct2 = t2.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+      return t1.trim().toLowerCase()==t2.trim().toLowerCase();
+    }
   </script>
 </html>
