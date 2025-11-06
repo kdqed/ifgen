@@ -63,7 +63,9 @@
               </template>
             </div>
           </details>
-          <form class="action-form" x-on:submit.prevent="takeAction(event, node.actions)">
+          <form class="action-form" 
+            x-show="node.actions.length>0"
+            x-on:submit.prevent="takeAction(event, node.actions)">
             <input type="text" name="player-action" placeholder="Type Action Here..." autocomplete="off" required>
             <button>-&gt</button>
           </form>
@@ -73,14 +75,16 @@
       <template x-if="!loaded">
         <p>Loading...</p>
       </template>
+      
     </main>
+    <div id="flash"></div>
   </body>
   <script>
     document.addEventListener('alpine:init', async () => {
       Alpine.data('story', () => ({
         loaded: false,
         story: {nodes: []},
-        currentNode: 0, 
+        currentNode: 2, 
 
         async init() {
           const params = new URLSearchParams(location.search);
@@ -98,6 +102,10 @@
             if(actionEquals(userInput, actions[i].action_text.text_l1)) {
               this.currentNode = actions[i].destination_id;
               event.target.querySelector('input').value = '';
+              window.scrollTo(0,0);
+              const flash = document.querySelector('#flash');
+              flash.classList.add('done');
+              setTimeout(() => {flash.classList.remove('done');}, 500)
               return;
             }
           }

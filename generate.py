@@ -13,21 +13,26 @@ import config
 
 os.makedirs('outputs', exist_ok = True)
 OUTPUT_DIR = Path('outputs')
-OUTPUT_FILE = OUTPUT_DIR / 'test.json'
+OUTPUT_FILE = OUTPUT_DIR / 'welcome-to-tokyo.json'
 
 
 PROMPT = """
-    Generate an interactive fiction story with 20 scenes (called nodes hereafter).
+    Generate an interactive fiction story with 50 scenes (called nodes hereafter).
     Each Node will have a description presented line-by-line, and 1 - 4 'actions' that will link to other nodes.
-    For each bit of any kind of text generate, you will be providing the texts in Japanese Romaji and Kannada
+    For each bit of any kind of text generate, you will be providing the texts in Japanese Romaji and Old Kannada
+    For Kannada translations, use Old Mysore colloquial Kannada.
     This story is for a language learner to study Japanese using Kannada, so try to keep the word order in Japanese
     and the translated word order in Kannada the same as much as possible, so that they map 1-1.
+
+    The story must be set in Tokyo city and the player must be a character visiting Tokyo for the first time.
+    The story will be titled something like 'Welcome To Tokyo'
+    Keep each scene around 10 sentences long, but make each sentence relevant and important. Avoid unnecessary verbose descriptions.
 """
 
 
 class Text(BaseModel):
     text_l1: str = Field(description='An text unit of the story in Japanese Romaji')
-    text_l2: str = Field(description='Translated text in Kannada')
+    text_l2: str = Field(description='Translated text in Kannada, retaining word original Japanese order as much as possible while still being gramatically correct.')
 
 
 class Action(BaseModel):
