@@ -10,7 +10,6 @@
   --fg: #afc3cf;
   --t1: #254e6f;
   --base-size: clamp(22px, 1.3vw, 32px);
-	--max-width: calc(var(--base-size)*32);
 	font-size: var(--base-size);
 	letter-spacing: 0.01rem;
 }
@@ -32,7 +31,7 @@ main {
   align-content: center;
   padding: 1rem;
   width: 100%;
-  max-width: var(--max-width);
+  max-width: 100vh;
   text-align: left;
 }
 
@@ -64,6 +63,7 @@ section {
   gap: 0.8rem;
   line-height: 200%;
   padding-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 hgroup {
@@ -84,10 +84,11 @@ details summary {
 .action-form {
   background: var(--bg);
   position: fixed;
-  left: 0;
   bottom: 0;
-  width: 100%;
-  display: grid;
+  --width: min(100vw, 100vh); 
+  width: var(--width);
+  left: calc(50vw - var(--width)/2);
+  display: inline-grid;
   grid-template-columns: 1fr auto;
   padding: 1rem;
   border-top: 0.1rem solid var(--bg1);
