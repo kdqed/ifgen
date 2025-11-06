@@ -121,5 +121,5 @@ details summary {
 
 @keyframes flash {
   from {opacity: 0.5;}
-  to {opacity: 0;}
+  to {opacity: 0.0;}
 }

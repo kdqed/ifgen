@@ -110,10 +110,7 @@
         },
 
         flash() {
-          window.scrollTo(0,0);
-          const flash = document.querySelector('#flash');
-          flash.classList.add('done');
-          setTimeout(() => {flash.classList.remove('done');}, 500);    
+          window.flash();    
         }
       }));
 
@@ -124,6 +121,13 @@
       //const ct1 = t1.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
       //const ct2 = t2.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
       return t1.trim().toLowerCase()==t2.trim().toLowerCase();
+    }
+
+    function flash() {
+      window.scrollTo(0,0);
+      const flashDiv = document.querySelector('#flash');
+      flashDiv.classList.add('done');
+      setTimeout(() => {flashDiv.classList.remove('done');}, 1000);
     }
   </script>
 </html>
