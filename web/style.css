@@ -35,6 +35,11 @@ main {
   text-align: left;
 }
 
+header {
+  display: flex;
+  justify-content: end;
+}
+
 h1 {
   font-size: 1.3rem;
 }
@@ -56,6 +61,11 @@ button {
   text-align: left;
   cursor: pointer;
   justify-self: start;
+}
+
+button.small {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.75rem;
 }
 
 section {

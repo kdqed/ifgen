@@ -11,8 +11,7 @@ from pydantic_ai.providers.openai import OpenAIProvider
 import config
 
 
-os.makedirs('outputs', exist_ok = True)
-OUTPUT_DIR = Path('outputs')
+OUTPUT_DIR = Path('web') / 'stories'
 OUTPUT_FILE = OUTPUT_DIR / 'welcome-to-tokyo.json'
 
 
