@@ -102,16 +102,21 @@
             if(actionEquals(userInput, actions[i].action_text.text_l1)) {
               this.currentNode = actions[i].destination_id;
               event.target.querySelector('input').value = '';
-              window.scrollTo(0,0);
-              const flash = document.querySelector('#flash');
-              flash.classList.add('done');
-              setTimeout(() => {flash.classList.remove('done');}, 500)
+              this.flash();
               return;
             }
           }
           alert('Invalid action');
+        },
+
+        flash() {
+          window.scrollTo(0,0);
+          const flash = document.querySelector('#flash');
+          flash.classList.add('done');
+          setTimeout(() => {flash.classList.remove('done');}, 500);    
         }
       }));
+
       
     });
 
