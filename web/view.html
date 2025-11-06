@@ -2,13 +2,15 @@
 <html>
   <head>
     <title>IS Viewer</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="https://kdqed.com/assets/brand/favicon.ico">
+    
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 
-    <style>
-      .em {
-        font-style: italics;
-      }
-    </style>
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <main x-data="story">
@@ -30,10 +32,12 @@
             <h2 x-text="node.title.text_l1"></h2>
             <p x-text="node.title.text_l2" class="em"><p>
           </hgroup>
-          <p>
-            <template x-for="text in node.texts">
-              <span x-text="text.text_l1 + ' '"></span>
-            </template>
+          <div>
+            <p>
+              <template x-for="text in node.texts">
+                <span x-text="text.text_l1 + ' '"></span>
+              </template>
+            </p>
             <template x-for="(action, i) in node.actions">
               <button 
                 x-text="action.action_text.text_l1"
@@ -41,7 +45,7 @@
                 >
               </button>
             </template>
-          </p>
+          </div>
           <details>
             <summary>Show Translation</summary>
             <div>
@@ -54,7 +58,7 @@
               </template>
               <template x-for="(action, i) in node.actions">
                 <button x-on:click="currentNode = action.destination_id">
-                  <span x-text="action.action_text.text_l1"></span>
+                  <span x-text="action.action_text.text_l1"></span><br>
                   (<span x-text="action.action_text.text_l2" class="em"></span>)
                 </button>
               </template>
@@ -76,7 +80,8 @@
 
         async init() {
           const params = new URLSearchParams(location.search);
-          const req = await fetch(params.get('storyjson'));
+          const storyId = params.get('story');
+          const req = await fetch(`https://raw.githubusercontent.com/kdqed/ifgen/refs/heads/main/outputs/${storyId}.json`);
           const story = await req.json();
           this.loaded = true;
           this.story = story;

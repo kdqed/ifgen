@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: JetBrains Mono, sans-serif;
+  margin: 0;
+}
+
+:root {
+  --bg: #0f161a;
+  --bg1: #2b3f4b;
+  --fg: #afc3cf;
+  --t1: #254e6f;
+  --base-size: clamp(22px, 1.3vw, 32px);
+	--max-width: calc(var(--base-size)*32);
+	font-size: var(--base-size);
+	letter-spacing: 0.01rem;
+}
+
+.em {
+  font-style: italic;
+}
+
+body {
+  font-size: 1rem;
+  background: var(--bg);
+  color: var(--fg);
+  text-align: center;
+}
+
+main {
+  display: inline-grid;
+  min-height: 100vh;
+  align-content: center;
+  padding: 1rem;
+  width: 100%;
+  max-width: var(--max-width);
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+button {
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: var(--bg1);
+  padding: 0.3rem 0.5rem;
+  outline: none;
+  border: 0.1rem solid var(--t1);
+  color: var(--fg);
+  border-radius: 0.05rem;
+  display: inline-block;
+  text-align: left;
+  cursor: pointer;
+  justify-self: start;
+}
+
+section {
+  display: grid;
+  gap: 0.8rem;
+  line-height: 200%;
+  padding-bottom: 4rem;
+}
+
+hgroup {
+  display: grid;
+  gap: 0.6rem;
+}
+
+section div {
+  display: grid;
+  gap: 0.6rem;
+}
+
+details summary {
+  cursor: pointer;
+  padding: 1rem 0;
+}
