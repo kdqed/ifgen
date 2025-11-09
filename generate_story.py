@@ -35,6 +35,7 @@ PROMPT = """
     Make sure to translate the particles appearing in Japanese to their respective postpositions to the Kannada words.
     
     The story must be in a galactic colony of the distant future with humans settled in space and going around in space ships.
+    Keep the content at each node about 10 sentences long.
 """
 
 
