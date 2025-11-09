@@ -11,7 +11,7 @@ from pydantic_ai.providers.openai import OpenAIProvider
 import config
 
 
-STORY_CODE = 'future-space-jp-ka'
+STORY_CODE = 'sailor-on-island-jp-ta'
 OUTPUT_FILE = Path('web') / 'stories' / f'{STORY_CODE}.json'
 
 
@@ -28,20 +28,20 @@ PROMPT = """
     In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.
     Keep the narrative coherent for multiple visits to the same node from various different nodes.
 
-    Generate the story in Japanese Romaji script with Kannada translations.
-    This is for a Kannada speaker to learn Japanese.
-    Keep the word order of Kannada translations similar to the Japanese sentence as mcuh as grammar allows.
+    Generate the story in Japanese Romaji script with Tamil translations.
+    This is for a Tamil speaker to learn Japanese.
+    Keep the word order of Tamil translations similar to the Japanese sentence as mcuh as grammar allows.
     This will enable the reader to learn Japanese by mapping the translated words 1-1 with the original text.
-    Make sure to translate the particles appearing in Japanese to their respective postpositions to the Kannada words.
+    Make sure to translate the particles appearing in Japanese to their respective postpositions in the Tamil words.
     
-    The story must be in a galactic colony of the distant future with humans settled in space and going around in space ships.
+    The story must be about a sailor waking up on an uninhabitated island without any idea of how they got there.
     Keep the content at each node about 10 sentences long.
 """
 
 
 class Text(BaseModel):
     text_l1: str = Field(description='An text unit of the story in Japanese Romaji')
-    text_l2: str = Field(description='Translated text in Kannada, retaining word original Japanese order as much as possible while still being gramatically correct.')
+    text_l2: str = Field(description='Translated text in Tamil, retaining word original Japanese order as much as possible while still being gramatically correct.')
 
 
 class Action(BaseModel):
