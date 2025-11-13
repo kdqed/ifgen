@@ -11,9 +11,9 @@ from pydantic_ai.providers.openai import OpenAIProvider
 import config
 
 
-STORY_CODE = 'lost-in-bangalore-jp-ka'
+STORY_CODE = 'forest-of-dead-dreams-jp-ml'
 OUTPUT_FILE = Path('web') / 'stories' / f'{STORY_CODE}.json'
-
+print(STORY_CODE)
 
 PROMPT = """
     Generate an interactive fiction story with 25 scenes (called nodes hereafter).
@@ -28,21 +28,21 @@ PROMPT = """
     In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.
     Keep the narrative coherent for multiple visits to the same node from various different nodes.
 
-    Generate the story in Japanese Romaji script with Kannada translations.
-    This is for a Kannada speaker to learn Japanese.
-    Keep the word order of Kannada translations similar to the Japanese sentence as mcuh as grammar allows.
+    Generate the story in Japanese Romaji script with Malayalam translations.
+    This is for a Malayalam speaker to learn Japanese.
+    Keep the word order of Malayalam translations similar to the Japanese sentence as mcuh as grammar allows.
     This will enable the reader to learn Japanese by mapping the translated words 1-1 with the original text.
-    Make sure to translate the particles appearing in Japanese to their respective postpositions in the Kannada words.
+    Make sure to translate the particles appearing in Japanese to their respective postpositions in the Malayalam words.
     
-    The story must be about a character in Bangalore solving a supernatural (not horror) mystery.
-    Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include facts useful to solve the story.
+    The story must be themed around the phrase: Forest of Dead Dreams.
+    Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include only facts useful to navigate the story.
     Each node may have upto 5 actions.
 """
 
 
 class Text(BaseModel):
     text_l1: str = Field(description='An text unit of the story in Japanese Romaji')
-    text_l2: str = Field(description='Translated text in Kannada, retaining word original Japanese order as much as possible while still being gramatically correct.')
+    text_l2: str = Field(description='Translated text in Malayalam; use Unicode Malayalam script, keep the words in original Japanese order as much as possible while still being gramatically correct.')
 
 
 class Action(BaseModel):
