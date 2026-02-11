@@ -51,6 +51,7 @@ story = json.loads(open(INPUT_FILE).read())
 story['title'] = translate_text(story['title'])
 
 for node in story['nodes']:
+    node['title'] = translate_text(node['title'])
     node['texts'] = [translate_text(t) for t in node['texts']]
     for action in node['actions']:
         action['action_text'] = translate_text(action['action_text'])
