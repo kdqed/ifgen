@@ -1,0 +1,674 @@
+{
+  "title": "BMTC Bus to the Stars",
+  "nodes": [
+    {
+      "id": 1,
+      "title": "The Usual Route",
+      "texts": [
+        "The BMTC bus rumbles along its familiar route through the city.",
+        "Passengers are chatting, some are reading, others are looking out the window.",
+        "Suddenly, the bus veers sharply off the road.",
+        "The familiar cityscape blurs and melts away.",
+        "A strange shimmering vortex opens before the bus.",
+        "The driver struggles with the steering wheel but it's no use.",
+        "The bus is pulled inexorably into the swirling colors.",
+        "A disorienting lurch, and then silence.",
+        "Where are we?"
+      ],
+      "actions": [
+        {
+          "action_text": "Look around inside the bus.",
+          "destination_id": 2
+        },
+        {
+          "action_text": "Peer out the window.",
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Inside the Bus",
+      "texts": [
+        "The interior of the bus looks the same, but the lighting is odd.",
+        "Stars twinkle through the windows where buildings used to be.",
+        "The passengers are a mix of confused and terrified.",
+        "No one seems to know what is happening.",
+        "A strange hum fills the air.",
+        "The seats are still there.",
+        "The ticket machine is still there.",
+        "Everything looks normal, yet utterly wrong.",
+        "The bus is still moving."
+      ],
+      "actions": [
+        {
+          "action_text": "Look out the window again.",
+          "destination_id": 3
+        },
+        {
+          "action_text": "Check the driver's cabin.",
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Outside the Bus",
+      "texts": [
+        "Through the windows, you see a breathtaking vista.",
+        "Nebulae of vibrant colors drift past.",
+        "Countless stars form glittering constellations.",
+        "The Earth is nowhere to be seen.",
+        "The bus is floating in the vast emptiness of space.",
+        "There are no roads, no cities, no familiar landmarks.",
+        "Just the silent, awe-inspiring expanse of the cosmos.",
+        "It's beautiful and terrifying at the same time.",
+        "The bus is a tiny speck."
+      ],
+      "actions": [
+        {
+          "action_text": "Return to looking inside the bus.",
+          "destination_id": 2
+        },
+        {
+          "action_text": "Investigate the driver's cabin.",
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Driver's Cabin",
+      "texts": [
+        "The driver is nowhere to be found.",
+        "The steering wheel is frozen.",
+        "The control panel displays strange symbols and readings.",
+        "One dial shows 'Cosmic Velocity' at maximum.",
+        "Another indicates 'Wormhole Stability' is zero.",
+        "The ticket machine still functions, oddly.",
+        "There is a red button labeled 'Emergency Stop'.",
+        "No one is sure what it controls.",
+        "The bus continues its silent journey."
+      ],
+      "actions": [
+        {
+          "action_text": "Press the emergency stop button.",
+          "destination_id": 5
+        },
+        {
+          "action_text": "Examine the strange symbols.",
+          "destination_id": 6
+        },
+        {
+          "action_text": "Go back to the passenger area.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Emergency Stop",
+      "texts": [
+        "You slam your hand down on the red button.",
+        "Nothing happens immediately.",
+        "Then, a loud clanking sound comes from the engine.",
+        "The bus shudders violently.",
+        "It begins to slow its impossible speed.",
+        "The stars outside swirl rapidly.",
+        "A distant planet appears through the windshield.",
+        "It looks like a possible destination."
+      ],
+      "actions": [
+        {
+          "action_text": "Try to steer the bus.",
+          "destination_id": 7
+        },
+        {
+          "action_text": "Observe the approaching planet.",
+          "destination_id": 8
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Alien Symbols",
+      "texts": [
+        "The symbols are unlike any language you know.",
+        "They glow with a faint blue light.",
+        "One symbol seems to represent a star map.",
+        "Another looks like a power indicator.",
+        "You can't decipher their meaning.",
+        "They are fascinating to look at.",
+        "Perhaps they are warnings.",
+        "Or maybe instructions.",
+        "The bus moves onward."
+      ],
+      "actions": [
+        {
+          "action_text": "Try pressing the emergency stop button.",
+          "destination_id": 5
+        },
+        {
+          "action_text": "Look out the window.",
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Attempting to Steer",
+      "texts": [
+        "You grab the steering wheel and try to turn it.",
+        "It still feels stuck.",
+        "However, with the bus slowing, you feel a slight give.",
+        "You manage to nudge the bus slightly off its current trajectory.",
+        "The approaching planet grows larger.",
+        "You are aiming for a patch of green on its surface.",
+        "It could be land.",
+        "Or it could be something else entirely.",
+        "The descent is rough."
+      ],
+      "actions": [
+        {
+          "action_text": "Brace for impact.",
+          "destination_id": 9
+        },
+        {
+          "action_text": "Look closely at the planet's surface.",
+          "destination_id": 8
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Approaching Planet",
+      "texts": [
+        "The planet is a swirling ball of blues and greens.",
+        "Continents are visible, some covered in lush vegetation.",
+        "Vast oceans glisten under an alien sun.",
+        "There are no signs of civilization from this distance.",
+        "It appears to be a habitable world.",
+        "Or at least, a world with an atmosphere.",
+        "The bus continues its steady approach.",
+        "You can make out mountains and rivers now.",
+        "It feels like landing is imminent."
+      ],
+      "actions": [
+        {
+          "action_text": "Prepare for landing.",
+          "destination_id": 9
+        },
+        {
+          "action_text": "Return to the driver's cabin.",
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Touchdown",
+      "texts": [
+        "The bus hits the ground with a jolt.",
+        "Everything rattles and shakes.",
+        "Acres of tall, alien grass bend and sway.",
+        "The bus stops with a final shudder.",
+        "Silence descends, broken only by the hum of the engine.",
+        "You have landed on an unknown world.",
+        "Dust settles around the vehicle.",
+        "The air outside seems breathable.",
+        "Is this the end of the journey?"
+      ],
+      "actions": [
+        {
+          "action_text": "Open the bus doors.",
+          "destination_id": 10
+        },
+        {
+          "action_text": "Check the bus for damage.",
+          "destination_id": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Stepping Outside",
+      "texts": [
+        "You cautiously open the bus doors.",
+        "A gust of warm, sweet-smelling air blows in.",
+        "The sky is a peculiar shade of violet.",
+        "Strange, towering flora surrounds the bus.",
+        "Small, multi-limbed creatures scurry away into the undergrowth.",
+        "The ground is soft and spongy.",
+        "You are standing on alien soil.",
+        "The bus is your only known shelter.",
+        "What do you do now?"
+      ],
+      "actions": [
+        {
+          "action_text": "Explore the immediate area.",
+          "destination_id": 12
+        },
+        {
+          "action_text": "Examine the alien plants.",
+          "destination_id": 13
+        },
+        {
+          "action_text": "Try to re-enter the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bus Condition",
+      "texts": [
+        "You walk around the exterior of the bus.",
+        "There are dents and scratches from the landing.",
+        "One of the tires looks deflated.",
+        "The windows are intact, though smudged.",
+        "The engine seems to be running smoothly, surprisingly.",
+        "No major structural damage is apparent.",
+        "It appears the bus survived the journey.",
+        "However, there is no sign of any repair equipment.",
+        "It is still a grounded vehicle."
+      ],
+      "actions": [
+        {
+          "action_text": "Open the doors and step outside.",
+          "destination_id": 10
+        },
+        {
+          "action_text": "Check the driver's cabin again.",
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Local Exploration",
+      "texts": [
+        "You walk a short distance from the bus.",
+        "The alien vegetation is dense.",
+        "You see colorful, pulsating fungi on the ground.",
+        "The air is filled with chirping and buzzing sounds.",
+        "A small stream with glowing blue water flows nearby.",
+        "You notice strange, geometric rock formations.",
+        "You feel a sense of wonder and unease.",
+        "It is important to stay close to the bus.",
+        "Getting lost would be dangerous."
+      ],
+      "actions": [
+        {
+          "action_text": "Examine the glowing stream.",
+          "destination_id": 14
+        },
+        {
+          "action_text": "Investigate the rock formations.",
+          "destination_id": 15
+        },
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Alien Flora",
+      "texts": [
+        "You approach some of the nearest plants.",
+        "They have large, iridescent leaves which slowly unfurl.",
+        "Some have petal-like structures that emit a soft light.",
+        "One plant has long, vine-like tendrils.",
+        "You notice small, transparent pods attached to some stems.",
+        "The air here smells intensely floral.",
+        "These plants seem to thrive in this environment.",
+        "You wonder if they are edible.",
+        "It's best not to touch them without caution."
+      ],
+      "actions": [
+        {
+          "action_text": "Look for water.",
+          "destination_id": 14
+        },
+        {
+          "action_text": "Explore the surroundings near the bus.",
+          "destination_id": 12
+        },
+        {
+          "action_text": "Go back inside the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "The Glowing Stream",
+      "texts": [
+        "You kneel beside the stream.",
+        "The water emits a gentle, ethereal blue luminescence.",
+        "Tiny, silvery fish-like creatures dart through the current.",
+        "The water feels cool and slightly viscous.",
+        "You hesitate to drink it.",
+        "It may not be safe.",
+        "However, it seems pure.",
+        "The glow is mesmerizing.",
+        "It flows into the dense jungle."
+      ],
+      "actions": [
+        {
+          "action_text": "Taste the water.",
+          "destination_id": 16
+        },
+        {
+          "action_text": "Follow the stream.",
+          "destination_id": 17
+        },
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Geometric Rocks",
+      "texts": [
+        "You approach the unusual rock formations.",
+        "They are perfectly shaped polyhedrons.",
+        "Some are octagons, others dodecahedrons.",
+        "They seem too uniform to be natural.",
+        "They are cool to the touch.",
+        "There are no markings or inscriptions on them.",
+        "They appear to be embedded in the ground.",
+        "They might be artificial.",
+        "Their purpose is a mystery."
+      ],
+      "actions": [
+        {
+          "action_text": "Look for signs of life.",
+          "destination_id": 18
+        },
+        {
+          "action_text": "Examine the stream.",
+          "destination_id": 14
+        },
+        {
+          "action_text": "Go back to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Tasting the Water",
+      "texts": [
+        "You cup your hands and take a small sip.",
+        "The water is refreshing and has a slightly sweet taste.",
+        "It doesn't seem to have any immediate ill effects.",
+        "You feel a sense of calm.",
+        "Perhaps the water is safe.",
+        "You drink a little more.",
+        "The glow from the water seems to resonate within you.",
+        "This planet might sustain you.",
+        "You feel energized."
+      ],
+      "actions": [
+        {
+          "action_text": "Explore further into the jungle.",
+          "destination_id": 17
+        },
+        {
+          "action_text": "Return to the bus to rest.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Following the Stream",
+      "texts": [
+        "You walk along the bank of the glowing stream.",
+        "The jungle thickens with every step.",
+        "The sounds of unseen creatures grow louder.",
+        "The stream leads you towards a clearing.",
+        "In the distance, you see a strange, crystalline structure.",
+        "It glitters in the violet light of the sky.",
+        "The stream appears to flow directly into it.",
+        "This might be a place of interest.",
+        "Caution is advised."
+      ],
+      "actions": [
+        {
+          "action_text": "Approach the crystalline structure.",
+          "destination_id": 19
+        },
+        {
+          "action_text": "Go back to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Signs of Life",
+      "texts": [
+        "You scan the area around the geometric rocks.",
+        "You see no large animals.",
+        "However, you notice small, insect-like creatures.",
+        "They crawl over the rocks and disappear into the grass.",
+        "Their bodies are iridescent.",
+        "They seem harmless.",
+        "You hear a faint, melodic humming.",
+        "It seems to emanate from the rocks themselves.",
+        "Perhaps this place is more than it seems."
+      ],
+      "actions": [
+        {
+          "action_text": "Investigate the humming.",
+          "destination_id": 20
+        },
+        {
+          "action_text": "Look for water.",
+          "destination_id": 14
+        },
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "The Crystalline Structure",
+      "texts": [
+        "You cautiously approach the structure.",
+        "It is made of a material that looks like pure crystal.",
+        "It is large and intricately shaped.",
+        "The stream flows into an opening at its base.",
+        "The humming sound is stronger here.",
+        "It pulses with a gentle rhythm.",
+        "There are no visible doors or windows.",
+        "It appears to be a natural formation, or perhaps not.",
+        "The structure seems to beckon you."
+      ],
+      "actions": [
+        {
+          "action_text": "Try to enter the structure.",
+          "destination_id": 21
+        },
+        {
+          "action_text": "Examine the exterior closely.",
+          "destination_id": 22
+        },
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "The Humming Rocks",
+      "texts": [
+        "You place your ear against one of the geometric rocks.",
+        "The humming is subtle but distinct.",
+        "It feels like a vibration within the rock.",
+        "You tap it gently.",
+        "The humming changes pitch slightly.",
+        "It's as if the rocks are alive or communicating.",
+        "You look around for a source of the sound.",
+        "It seems to be coming from within the rocks themselves.",
+        "This is a peculiar phenomenon."
+      ],
+      "actions": [
+        {
+          "action_text": "Look around for other anomalies.",
+          "destination_id": 18
+        },
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Entering the Structure",
+      "texts": [
+        "As you get closer, the crystal seems to shimmer and part.",
+        "An opening appears, leading inside.",
+        "You step through the crystalline wall.",
+        "Inside, the humming is intense.",
+        "The space is filled with soft, ambient light.",
+        "There are intricate patterns on the walls.",
+        "It feels peaceful and welcoming.",
+        "You see no other beings.",
+        "This place feels significant."
+      ],
+      "actions": [
+        {
+          "action_text": "Explore the interior.",
+          "destination_id": 23
+        },
+        {
+          "action_text": "Feel the crystal walls.",
+          "destination_id": 22
+        },
+        {
+          "action_text": "Exit the structure.",
+          "destination_id": 19
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Exterior Examination",
+      "texts": [
+        "You run your hands over the smooth surface of the crystal.",
+        "It feels warm.",
+        "The surface is unblemished.",
+        "You notice faint lines that form complex geometric shapes.",
+        "These lines seem to glow from within.",
+        "The structure seems to absorb the ambient light.",
+        "It is a wonder of this new world.",
+        "You can't find any way in or out other than the stream's entrance.",
+        "It stands silent and imposing."
+      ],
+      "actions": [
+        {
+          "action_text": "Attempt to enter.",
+          "destination_id": 21
+        },
+        {
+          "action_text": "Examine the stream.",
+          "destination_id": 14
+        },
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Inside the Crystal",
+      "texts": [
+        "The interior is a single, large chamber.",
+        "The light pulses gently, syncing with the humming.",
+        "Images flicker on the walls.",
+        "They seem to show starscapes and alien life.",
+        "It feels like a place of knowledge or connection.",
+        "You feel a presence, ancient and benevolent.",
+        "The stream flows through a channel in the floor.",
+        "This place offers a form of peace.",
+        "You have found something extraordinary."
+      ],
+      "actions": [
+        {
+          "action_text": "Touch the glowing patterns on the wall.",
+          "destination_id": 24
+        },
+        {
+          "action_text": "Rest within the chamber.",
+          "destination_id": 25
+        },
+        {
+          "action_text": "Leave the structure.",
+          "destination_id": 19
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Touching the Patterns",
+      "texts": [
+        "You reach out and touch one of the glowing patterns.",
+        "A wave of energy flows through you.",
+        "Visions flood your mind.",
+        "You see the history of this world, its creators.",
+        "You understand the universe in a new way.",
+        "The humming intensifies, then subsides.",
+        "You feel changed by the experience.",
+        "You have gained deep insight.",
+        "This knowledge is yours to keep."
+      ],
+      "actions": [
+        {
+          "action_text": "Contemplate your new understanding.",
+          "destination_id": 25
+        },
+        {
+          "action_text": "Return to the bus with this knowledge.",
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "A Moment of Peace",
+      "texts": [
+        "You sit in the quiet chamber, the humming a soothing balm.",
+        "You feel safe and at peace.",
+        "The stress of the journey fades away.",
+        "You ponder the possibilities of this new world.",
+        "Whether you can return home is unknown.",
+        "But for now, there is tranquility.",
+        "The crystal structure offers refuge.",
+        "You can choose to stay or leave.",
+        "Your journey continues from here."
+      ],
+      "actions": [
+        {
+          "action_text": "Return to the bus.",
+          "destination_id": 2
+        },
+        {
+          "action_text": "Stay longer in the crystal chamber.",
+          "destination_id": 23
+        }
+      ]
+    }
+  ],
+  "prompt": "\n    Generate an interactive fiction story with 25 scenes (called nodes hereafter).\n    The nodes will be modeled as a graph and you are required to generate the list of nodes with actions acting as directed edges of the graph.\n    Once you generate, I will programmatically evaluate the graph for the following constraints:\n    - Start Node is the node with id=1. This is where the story begins. Only the start node maybe not linked to from any other node. \n    - All other nodes have to be linked to by at least one other node.\n    - Any node that doesn\u00b4t link to others is an \u00b4end node\u00b4. These are endpoints for the story.\n    - Every node that is not a start node or an end node must have a path from the start node, and a path to an end node.\n    \n    In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.\n    Keep the narrative coherent for multiple visits to the same node from various different nodes.\n\n    Keep the language of the story very simple and easy to translate.\n    Keep each text unit no longer than 1 sentence.\n    Avoid verbosity and there is no need to showcase your literary prowess.\n    \n    The story must be themed around a BMTC bus taking a detour into a wormhole and ending up in space.\n    Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include only facts useful to navigate the story.\n    Each node may have upto 5 actions.\n"
+}

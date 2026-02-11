@@ -41,6 +41,12 @@
                 <span x-text="text.text_l1 + ' '"></span>
               </template>
             </p>
+            <template x-for="text in node.texts">
+              <details>
+                <summary x-text="text.text_l1"></summary>
+                <p x-text="text.text_l2"></p>
+              </details>
+            </template>
             <template x-for="(action, i) in node.actions">
               <button 
                 x-text="action.action_text.text_l1"
@@ -95,6 +101,7 @@
           const storyId = params.get('story');
           const req = await fetch(`/stories/${storyId}.json`);
           const story = await req.json();
+          
           this.storyId = storyId;
           this.loaded = true;
           this.story = story;

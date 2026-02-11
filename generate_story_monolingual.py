@@ -11,8 +11,8 @@ from pydantic_ai.providers.openai import OpenAIProvider
 import config
 
 
-STORY_CODE = 'forest-of-dead-dreams-jp-ml'
-OUTPUT_FILE = Path('web') / 'stories' / f'{STORY_CODE}.json'
+STORY_CODE = 'bus-detour'
+OUTPUT_FILE = Path('web') / 'stories-mono' / f'{STORY_CODE}.json'
 print(STORY_CODE)
 
 PROMPT = """
@@ -23,42 +23,36 @@ PROMPT = """
     - All other nodes have to be linked to by at least one other node.
     - Any node that doesn´t link to others is an ´end node´. These are endpoints for the story.
     - Every node that is not a start node or an end node must have a path from the start node, and a path to an end node.
-    Once the outline is programmatically checked for validity, the story at each node will be populated later.
     
     In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.
     Keep the narrative coherent for multiple visits to the same node from various different nodes.
 
-    Generate the story in Japanese Romaji script with Malayalam translations.
-    This is for a Malayalam speaker to learn Japanese.
-    Keep the word order of Malayalam translations similar to the Japanese sentence as mcuh as grammar allows.
-    This will enable the reader to learn Japanese by mapping the translated words 1-1 with the original text.
-    Make sure to translate the particles appearing in Japanese to their respective postpositions in the Malayalam words.
+    Keep the language of the story very simple and easy to translate.
+    Keep each text unit no longer than 1 sentence.
+    Avoid verbosity and there is no need to showcase your literary prowess.
     
-    The story must be themed around the phrase: Forest of Dead Dreams.
+    The story must be themed around a BMTC bus taking a detour into a wormhole and ending up in space.
     Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include only facts useful to navigate the story.
     Each node may have upto 5 actions.
 """
 
-
-class Text(BaseModel):
-    text_l1: str = Field(description='An text unit of the story in Japanese Romaji')
-    text_l2: str = Field(description='Translated text in Malayalam; use Unicode Malayalam script, keep the words in original Japanese order as much as possible while still being gramatically correct.')
+#Make sure to translate the particles appearing in Japanese to their respective postpositions in the Malayalam words.
 
 
 class Action(BaseModel):
-    action_text: Text = Field(description='Action that can be taken by the player')
+    action_text: str = Field(description='Action that can be taken by the player')
     destination_id: int = Field(description='The node that this action links to')
 
 
 class Node(BaseModel):
     id: int = Field(description='A unique numeric id for this node use as a reference for actions in other nodes to link to.')
-    title: Text = Field(description='Title of the scene at this node')
-    texts: List[Text] = Field(description='List of text chunks describing the scene at this node and prompting for user action.')
+    title: str = Field(description='Title of the scene at this node')
+    texts: List[str] = Field(description='List of text chunks describing the scene at this node and prompting for user action. Each text must be only a sentence long.')
     actions: List[Action] = Field(description='List of 1-5 named actions linking to other nodes.')
 
 
 class InteractiveStory(BaseModel):
-    title: Text = Field(description='Title of the story')
+    title: str = Field(description='Title of the story')
     nodes: List[Node] = Field(description='List of nodes in the interactive story each with their attributes')
 
 
@@ -98,7 +92,7 @@ while True:
                     to_visit.append(action['destination_id'])
         else:
             graph_valid = False
-            print('INVALID:', f'{node} does not exist but is referenced')
+            print('INVALID:', f'{dest_id} does not exist but is referenced')
     
     
     for node in result['nodes']:
