@@ -11,7 +11,7 @@ from pydantic_ai.providers.openai import OpenAIProvider
 import config
 
 
-STORY_CODE = 'bus-detour-lt-ka-ta'
+STORY_CODE = 'arthur-clarke-lt-si-ka-2'
 OUTPUT_FILE = Path('web') / 'stories' / f'{STORY_CODE}.json'
 print(STORY_CODE)
 
@@ -27,13 +27,13 @@ PROMPT = """
     In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.
     Keep the narrative coherent for multiple visits to the same node from various different nodes.
 
-    Generate the story in colloquial Bangalore Kannada with Tamil translations.
-    This is for a Tamil speaker to learn spoken Kannada.
+    Generate the story in colloquial Sinhala with spoken Kannada translations.
+    This is for a Kannada speaker to learn spoken Sinhala.
     Keep both languages in Latin script. The idea is to learn speaking, not reading/writing.
-    Keep the word order of Tamil translations similar to the Kannada sentence as mcuh as grammar allows.
-    This will enable the reader to learn Kannada by mapping the translated words 1-1 with the original text.
+    Keep the word order of Kannada translations similar to the Sinhala sentence as mcuh as grammar allows.
+    This will enable the reader to learn Sinhala by mapping the translated words 1-1 with the original text.
     
-    The story must be themed around a BMTC bus taking a detour into a wormhole and ending up in space.
+    The story must be themed around some mysterious sci-fi events at the Arthur Clarke Institute which he setup in Colombo.
     Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include only facts useful to navigate the story.
     Each node may have upto 5 actions.
 """
@@ -42,8 +42,8 @@ PROMPT = """
 
 
 class Text(BaseModel):
-    text_l1: str = Field(description='An text unit of the story in Kannada written with Latin script')
-    text_l2: str = Field(description='Translated text in Tamil; use Tamil with Latin script, keep the words in original Kannada order as much as possible while still being gramatically correct.')
+    text_l1: str = Field(description='An text unit of the story in Sinhala written with Latin script')
+    text_l2: str = Field(description='Translated text in Kannada; use Kannada with Latin script, keep the words in original Kannada order as much as possible while still being gramatically correct.')
 
 
 class Action(BaseModel):

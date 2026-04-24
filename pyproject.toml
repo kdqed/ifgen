@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "ebooklib>=0.20",
     "indic-transliteration>=2.3.76",
+    "jinja2>=3.1.6",
     "pydantic>=2.12.3",
     "pydantic-ai>=1.11.0",
     "python-dotenv>=1.2.1",

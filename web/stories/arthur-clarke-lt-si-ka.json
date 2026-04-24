@@ -1,0 +1,672 @@
+{
+  "title": {
+    "text_l1": "Arthur Clarke Niyamuven Rahas",
+    "text_l2": "Arthur Clarke samstheyalli rahasya"
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "title": {
+        "text_l1": "Arthur Clarke Ayathanaya",
+        "text_l2": "Arthur Clarke samsthe"
+      },
+      "texts": [
+        {
+          "text_l1": "Obe duk karana hitiye Arthur Clarke Ayathanaye pihita thiyana viyaruwa asala.",
+          "text_l2": "Nee nintidda Arthur Clarke samstheyalli iruva aashcharyagala hattira."
+        },
+        {
+          "text_l1": "Kalpana lokaye pini patalawa wage meka godak parani idikiriymak.",
+          "text_l2": "Kalpanalokada haasiyantaha idu bahala purathanadya katadana."
+        },
+        {
+          "text_l1": "Ehi mulika adahasak thibuna, dan monawada wenne kiyana eka api danne na.",
+          "text_l2": "Adara mulaka uddeshakke ittu, eega enu aguttade antha namage gotilla."
+        },
+        {
+          "text_l1": "Ayathanaya thula durwala alokayak etha.",
+          "text_l2": "Samstheyolage manda be\u1e37aku ide."
+        },
+        {
+          "text_l1": "Ehi paata arakshaka kadatuwa athi, eya mulika nigamanayata ediriyen atha.",
+          "text_l2": "Adara olage surak\u1e63\u0101 k\u0101riy\u0101r\u0101 iruttade, adu moolabhootha bhavanakke eduragi idde."
+        },
+        {
+          "text_l1": "Eha asala niwadhanayak athi, eya 'Parishilana Prakramaya' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu soochane ide, adannu 'Parishodhana Prakriye' andu karisuttare."
+        },
+        {
+          "text_l1": "Eyamada pahalata penena palla pathak athara guli athara wenas wenas wenas wenas widiyata etha.",
+          "text_l2": "Adu kelage kanoonu doreyava haku, bhinna bhinna bhinna bhinna ritiyalli ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Aluth Ipadima Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Hosa Janana Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Durwala alokayata yanawa.",
+            "text_l2": "Manda be\u1e37akige hogu."
+          },
+          "destination_id": 2
+        },
+        {
+          "action_text": {
+            "text_l1": "Paata arakshaka kadatuwa balana yanu.",
+            "text_l2": "Surak\u1e63\u0101 k\u0101riy\u0101r\u0101 n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 3
+        },
+        {
+          "action_text": {
+            "text_l1": "'Parishilana Prakramaya' balana yanu.",
+            "text_l2": "'Parishodhana Prakriye' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "text_l1": "Durwala Alokaya",
+        "text_l2": "Manda Be\u1e37aku"
+      },
+      "texts": [
+        {
+          "text_l1": "Durwala alokaye etha, eya thula thibune paata kalmanayak saha siyalu dennekma netha.",
+          "text_l2": "Manda be\u1e37akige ide, adara olage paata kalmanada mattu ella janaru illavalla."
+        },
+        {
+          "text_l1": "Adara maduruwak athi, eya thula thibune thama rahas guli athi.",
+          "text_l2": "Adara maduru ide, adara olage matte rahasya adiga\u1e37 ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune paata kalmanayak saha siyalu dennekma netha.",
+          "text_l2": "Adara olage paata kalmanada mattu ella janaru illavalla."
+        },
+        {
+          "text_l1": "Ehi thibune thama rahas athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage matte rahasya ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Maduruwa thula balana yanu.",
+            "text_l2": "Maduruolage n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 5
+        },
+        {
+          "action_text": {
+            "text_l1": "'Kala Aakarshana' balana yanu.",
+            "text_l2": "'Kala Kendra' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 8
+        },
+        {
+          "action_text": {
+            "text_l1": "Paata arakshaka kadatuwa balana yanu.",
+            "text_l2": "Surak\u1e63\u0101 k\u0101riy\u0101r\u0101 n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "text_l1": "Paata Arakshaka Kadatuwa",
+        "text_l2": "Surak\u1e63\u0101 K\u0101riy\u0101r\u0101"
+      },
+      "texts": [
+        {
+          "text_l1": "Paata arakshaka kadatuwa thula thibune siyalu dennekma netha, thama rahas guli athi.",
+          "text_l2": "Surak\u1e63\u0101 k\u0101riy\u0101r\u0101 olage ella janaru illavalla, matte rahasya adiga\u1e37 ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Aluth Ipadima Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Hosa Janana Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune paata kalmanayak saha siyalu dennekma netha.",
+          "text_l2": "Adara olage paata kalmanada mattu ella janaru illavalla."
+        },
+        {
+          "text_l1": "Ehi thibune thama rahas athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage matte rahasya ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "'Aluth Ipadima Aakarshana' balana yanu.",
+            "text_l2": "'Hosa Janana Kendra' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 6
+        },
+        {
+          "action_text": {
+            "text_l1": "'Kala Aakarshana' balana yanu.",
+            "text_l2": "'Kala Kendra' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 8
+        },
+        {
+          "action_text": {
+            "text_l1": "Durwala alokayata yanawa.",
+            "text_l2": "Manda be\u1e37akige hogu."
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "text_l1": "Parishilana Prakramaya",
+        "text_l2": "Parishodhana Prakriye"
+      },
+      "texts": [
+        {
+          "text_l1": "Parishilana prakramaya thula thibune aluth aluth wargaya athi yanthra, eya thula thibune kalaya athi.",
+          "text_l2": "Parishodhana prakriye olage hosa hosa prakarada yantragala ide, adara olage k\u0101la ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Aluth Ipadima Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Hosa Janana Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune kalaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage k\u0101la ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Aluth yanthra balana yanu.",
+            "text_l2": "Hosa yantra n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 7
+        },
+        {
+          "action_text": {
+            "text_l1": "'Kala Aakarshana' balana yanu.",
+            "text_l2": "'Kala Kendra' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 8
+        },
+        {
+          "action_text": {
+            "text_l1": "Paata arakshaka kadatuwa balana yanu.",
+            "text_l2": "Surak\u1e63\u0101 k\u0101riy\u0101r\u0101 n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "text_l1": "Rahasa Maduruwa",
+        "text_l2": "Rahasyada Maduru"
+      },
+      "texts": [
+        {
+          "text_l1": "Rahasa maduruwa thula thibune aluth aluth wargaya athi guli, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Rahasyada maduru olage hosa hosa prakarada adiga\u1e37 ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune anagatha wargaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage anagatada prakarada ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Anagatha Pravesha' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Anagatada Pravesha' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "'Anagatha Pravesha' balana yanu.",
+            "text_l2": "'Anagatada Pravesha' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 9
+        },
+        {
+          "action_text": {
+            "text_l1": "Apasu durwala alokayata yanawa.",
+            "text_l2": "Hinde manda be\u1e37akige hogu."
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": {
+        "text_l1": "Aluth Ipadima Aakarshana",
+        "text_l2": "Hosa Janana Kendra"
+      },
+      "texts": [
+        {
+          "text_l1": "Aluth ipadima aakarshanaye thula thibune aluth aluth wargaya athi balamulu, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Hosa janana kendra olage hosa hosa prakarada balamulu ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune anagatha wargaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage anagatada prakarada ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Anagatha Pravesha' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Anagatada Pravesha' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "'Anagatha Pravesha' balana yanu.",
+            "text_l2": "'Anagatada Pravesha' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 9
+        },
+        {
+          "action_text": {
+            "text_l1": "Apasu paata arakshaka kadatuwa balana yanu.",
+            "text_l2": "Hinde surak\u1e63\u0101 k\u0101riy\u0101r\u0101 n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": {
+        "text_l1": "Aluth Yanthra Agnaya",
+        "text_l2": "Hosa Yantra Anugrahitava"
+      },
+      "texts": [
+        {
+          "text_l1": "Aluth yanthra agnaye thula thibune aluth aluth wargaya athi wishesh wargaya athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Hosa yantra anugrahitava olage hosa hosa prakarada vi\u015b\u0113\u1e63a prakarada ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune anagatha wargaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage anagatada prakarada ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Anagatha Pravesha' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Anagatada Pravesha' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "'Anagatha Pravesha' balana yanu.",
+            "text_l2": "'Anagatada Pravesha' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 9
+        },
+        {
+          "action_text": {
+            "text_l1": "Apasu parishilana prakramayata yanu.",
+            "text_l2": "Hinde parishodhana prakriyage hogu."
+          },
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": {
+        "text_l1": "Kala Aakarshana",
+        "text_l2": "Kala Kendra"
+      },
+      "texts": [
+        {
+          "text_l1": "Kala aakarshanaye thula thibune aluth aluth wargaya athi bala adahas, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Kala kendra olage hosa hosa prakarada bala uddeshagala ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune anagatha wargaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage anagatada prakarada ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Anagatha Pravesha' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Anagatada Pravesha' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Aluth Ipadima Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Hosa Janana Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "'Anagatha Pravesha' balana yanu.",
+            "text_l2": "'Anagatada Pravesha' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 9
+        },
+        {
+          "action_text": {
+            "text_l1": "Apasu Ayathanayata yanu.",
+            "text_l2": "Hinde samstyege hogu."
+          },
+          "destination_id": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": {
+        "text_l1": "Anagatha Praveshaya",
+        "text_l2": "Anagatada Pravesha"
+      },
+      "texts": [
+        {
+          "text_l1": "Anagatha praveshaye thula thibune aluth aluth wargaya athi kalaya athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Anagatada pravesha olage hosa hosa prakarada k\u0101la ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune anagatha wargaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage anagatada prakarada ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Rahasa Wisindima' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Rahasyada Vikaasa' andu karisuttare."
+        },
+        {
+          "text_l1": "Ehi aluth aluth aakarshanayak athi, eya adisala thiyanawa, eya aluth aluth aluth aluth wisindima athi.",
+          "text_l2": "Adara hosa kendra ide, adu ha\u1e37aya kendra dalli ide, adu hosa hosa hosa hosa vikasagala ide."
+        },
+        {
+          "text_l1": "Eha asale maargayak athi, eya 'Kala Aakarshana' yana nama dinim karanu labe.",
+          "text_l2": "Adara hattira ondu marga ide, adannu 'Kala Kendra' andu karisuttare."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide."
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "'Rahasa Wisindima' balana yanu.",
+            "text_l2": "'Rahasyada Vikaasa' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 10
+        },
+        {
+          "action_text": {
+            "text_l1": "Apasu 'Durwala Alokaya' balana yanu.",
+            "text_l2": "Hinde 'Manda Be\u1e37aku' n\u014d\u1e0dalu hogu."
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": {
+        "text_l1": "Rahasa Wisindima",
+        "text_l2": "Rahasyada Vikaasa"
+      },
+      "texts": [
+        {
+          "text_l1": "Niyata rahas wisindima thibuna, eya oba ho balanna kalin, eya siyalu widiyata wisindena kalpana lokayak thibuna.",
+          "text_l2": "Ni\u1e63\u1e6dhura rahasya vikaasa ittu, adannu neenu n\u014d\u1e0dalu munde, adu ella r\u012btiyalli vikasisa kalpanaloka ittu."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi siyalu dennekma netha, eya thula thibune thama rahas athi.",
+          "text_l2": "Adara ella janaru illavalla, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Api thama rahas athi, eya thula thibune kalpana lokaya athi.",
+          "text_l2": "Navu matte rahasya ide, adara olage kalpanaloka ide."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paatha thiyanne, eya thula thibune anagatha wargaya athi.",
+          "text_l2": "Adara olage kelagina saalu idde, adara olage anagatada prakarada ide."
+        },
+        {
+          "text_l1": "Meyta durwala alokayak athi, eya thula thibune thama rahas athi.",
+          "text_l2": "Idakka manda be\u1e37aku ide, adara olage matte rahasya ide."
+        },
+        {
+          "text_l1": "Eka asala aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Ondu hattira hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Thama rahase aluth aluth wargaya athi guli athi, eya thula thibune pahala paatha thiyanne.",
+          "text_l2": "Matte rahasyada hosa hosa prakarada adiga\u1e37 ide, adara olage kelagina saalu idde."
+        },
+        {
+          "text_l1": "Ehi thibune pahala paata athi, eya thula thibune kalpana lokaya athi, eya siyalu widiyata wisindena kalpana lokayak thibuna.",
+          "text_l2": "Adara olage kelagina saalu ide, adara olage kalpanaloka ide, adu ella r\u012btiyalli vikasisa kalpanaloka ittu."
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "prompt": "\n    Generate an interactive fiction story with 10 scenes (called nodes hereafter).\n    The nodes will be modeled as a graph and you are required to generate the list of nodes with actions acting as directed edges of the graph.\n    Once you generate, I will programmatically evaluate the graph for the following constraints:\n    - Start Node is the node with id=1. This is where the story begins. Only the start node maybe not linked to from any other node. \n    - All other nodes have to be linked to by at least one other node.\n    - Any node that doesn\u00b4t link to others is an \u00b4end node\u00b4. These are endpoints for the story.\n    - Every node that is not a start node or an end node must have a path from the start node, and a path to an end node.\n    \n    In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.\n    Keep the narrative coherent for multiple visits to the same node from various different nodes.\n\n    Generate the story in colloquial Sinhala with spoken Kannada translations.\n    This is for a Kannada speaker to learn spoken Sinhala.\n    Keep both languages in Latin script. The idea is to learn speaking, not reading/writing.\n    Keep the word order of Kannada translations similar to the Sinhala sentence as mcuh as grammar allows.\n    This will enable the reader to learn Sinhala by mapping the translated words 1-1 with the original text.\n    \n    The story must be themed around some mysterious sci-fi events at the Arthur Clarke Institute which he setup in Colombo.\n    Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include only facts useful to navigate the story.\n    Each node may have upto 5 actions.\n"
+}

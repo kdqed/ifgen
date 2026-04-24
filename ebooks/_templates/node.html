@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{code}}</title>
+  </head>
+  <body>
+    <h2>{{node['title']['text_l1']}}</h2>
+    <h3>{{node['title']['text_l2']}}</h3>
+    
+    {% for text in node['texts'] %}
+    <p>{{text['text_l1']}}</p>
+    <p><em>{{text['text_l2']}}</em></p>
+    {% endfor %}
+    
+    {% for action in node['actions'] %}
+    <p>
+      <a href="{{action['destination_href']}}">
+        {{action['action_text']['text_l1']}} 
+        <em>({{action['action_text']['text_l2']}})</em>
+      </a>
+    </p>
+    {% endfor %}
+
+  </body>
+</html>

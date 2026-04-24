@@ -1,0 +1,656 @@
+{
+  "title": {
+    "text_l1": "Arthur Clarke Ayathanaye Rahasak",
+    "text_l2": "Arthur Clarke Institute-nalli Rahasavu"
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "title": {
+        "text_l1": "Rahasa Arambima",
+        "text_l2": "Rahasada Arambha"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya, Arthur Clarke Ayathanayata enawa. Eka Colombo wala thiyenawa. Hari mahajana sahayogaya thiyenawa meka gena. Oyata puduma ahaka yanawa ekata. Meka wadi durata geniyana samsthawak. Meka athule podi awulak thiyenawa. Ewa wisadaganna ona. Den oya mokada karanne?",
+          "text_l2": "Neevu, Arthur Clarke Institute-ge baruttiri. Aduge Colombo-dalli ide. Tumba janara sahayavide idi kuritu. Ninage ascharya hoguttide adakke. Idu munde taruva samstheya. Idara Olage chikka samasyavide. Avugalannu mugisabeku. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Pravishaya athulata yanna",
+            "text_l2": "Praveshada olage hogu"
+          },
+          "destination_id": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "text_l1": "Praveshayata",
+        "text_l2": "Praveshadakke"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya praveshaya athulata enawa. Eka loku hooyak wage thiyenawa. Adiyata wadi durata yanna. Hitha hadaganna. Hari podi rahasiya labuna. Den oya mokada karanne?",
+          "text_l2": "Neevu praveshada olage baruttiri. Adaka dodda saaleyadante ide. Adugada munde hogalu. Manasu madalu. Tumba chikka rahasya siggide. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Mula samiksha kamarayata yanna",
+            "text_l2": "Moola sameeksha komariyadakke hogu"
+          },
+          "destination_id": 3
+        },
+        {
+          "action_text": {
+            "text_l1": "Loku parikshana garbhagaraya balanna yanna",
+            "text_l2": "Dodda pareeksha garbhaagara nodalu hogu"
+          },
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "text_l1": "Mula Samiksha Kamaraya",
+        "text_l2": "Moola Sameeksha Komariya"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya mula samiksha kamarayata adiyata enawa. Eka hari puduma thiyenawa. Pudumaya thiyenawa. Podi podi yanthra thiyenawa, wata pitawala. Eka puduma dewal gena kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu moola sameeksha komariyadakke adiyata baruttiri. Adu tumba ascharya idde. Ascharya idde. Chikka chikka yantragalu idde, suttamutta. Adu ascharya vishayagalannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Yanthra balanna yanna",
+            "text_l2": "Yantragalannu nodalu hogu"
+          },
+          "destination_id": 5
+        },
+        {
+          "action_text": {
+            "text_l1": "Loku parikshana garbhagaraya balanna yanna",
+            "text_l2": "Dodda pareeksha garbhaagara nodalu hogu"
+          },
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "text_l1": "Loku Parikshana Garbhagaraya",
+        "text_l2": "Dodda Pareeksha Garbhaagara"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya loku parikshana garbhagaraya athulata enawa. Eka hari loku kamarayak. Athule podi aruthak thiyenawa. Athule puduma dewal thiyenawa. Den oya mokada karanne?",
+          "text_l2": "Neevu dodda pareeksha garbhaagara olage baruttiri. Adu tumba dodda komariya. Olage chikka arthavide. Olage ascharya vishayagalive. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Eka podi yanthrayak balanna",
+            "text_l2": "Ondu chikka yantravannu nodu"
+          },
+          "destination_id": 6
+        },
+        {
+          "action_text": {
+            "text_l1": "Mula samiksha kamarayata yanna",
+            "text_l2": "Moola sameeksha komariyadakke hogu"
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "text_l1": "Yanthra Balanna",
+        "text_l2": "Yantragalannu Nodalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya yanthra balanna adiyata enawa. Eka hari puduma thiyenawa. Ewa hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu yantragalannu nodalu adiyata baruttiri. Adu tumba ascharya idde. Avugalella tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Rahasa gananaya karanna",
+            "text_l2": "Rahasya ganane madalu"
+          },
+          "destination_id": 7
+        },
+        {
+          "action_text": {
+            "text_l1": "Mula samiksha kamarayata yanna",
+            "text_l2": "Moola sameeksha komariyadakke hogu"
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": {
+        "text_l1": "Podi Yanthrayak Balanna",
+        "text_l2": "Chikka Yantravannu Nodalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya podi yanthrayak balanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu chikka yantravannu nodalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Rahasa gananaya karanna",
+            "text_l2": "Rahasya ganane madalu"
+          },
+          "destination_id": 7
+        },
+        {
+          "action_text": {
+            "text_l1": "Loku parikshana garbhagarayata yanna",
+            "text_l2": "Dodda pareeksha garbhaagaradakke hogu"
+          },
+          "destination_id": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": {
+        "text_l1": "Rahasa Gananaya Karanna",
+        "text_l2": "Rahasya Ganane Madalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya rahasiya gana gananaya karanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu rahasya kuritu ganane madalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Gamanaya karanna",
+            "text_l2": "Gamanisu"
+          },
+          "destination_id": 8
+        },
+        {
+          "action_text": {
+            "text_l1": "Mula samiksha kamarawata yanna",
+            "text_l2": "Moola sameeksha komariyadakke hogu"
+          },
+          "destination_id": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": {
+        "text_l1": "Gamanaya Karanna",
+        "text_l2": "Gamanisu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya gamanaya karanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu gamanisu nodalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Adikara pudgalayek soya yanna",
+            "text_l2": "Adhikara vyaktiyannu hudukalu hogu"
+          },
+          "destination_id": 9
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": {
+        "text_l1": "Adikara Pudgalayek Soya Yanna",
+        "text_l2": "Adhikara Vyaktiyannu Hudukalu Hogu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya adikara pudgalayek soya yanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu adhikara vyaktiyannu hudukalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Dinamayata awasthawak illanna",
+            "text_l2": "Dinamakkagi avakashavannu kelalu"
+          },
+          "destination_id": 10
+        },
+        {
+          "action_text": {
+            "text_l1": "Rahasa samiksha kamarayata yanna",
+            "text_l2": "Rahasya sameeksha komariyadakke hogu"
+          },
+          "destination_id": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": {
+        "text_l1": "Dinamayata Awathawak Illanna",
+        "text_l2": "Dinamakkagi Avakashavannu Keli"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya dinamayata awasthawak illanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu dinamakkagi avakashavannu kelalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Katha karanna",
+            "text_l2": "Matanadu"
+          },
+          "destination_id": 12
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": {
+        "text_l1": "Rahasa Samiksha Kamaraya",
+        "text_l2": "Rahasya Sameeksha Komariya"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya rahasiya samiksha kamarayata adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu rahasya sameeksha komariyadakke adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Eliadarav kara ganima",
+            "text_l2": "Helapadisu"
+          },
+          "destination_id": 13
+        },
+        {
+          "action_text": {
+            "text_l1": "Adikara pudgalayek soya yanna",
+            "text_l2": "Adhikara vyaktiyannu hudukalu hogu"
+          },
+          "destination_id": 9
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": {
+        "text_l1": "Katha Karanna",
+        "text_l2": "Matanadi"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya katha karanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu matanadi adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Matu karanna",
+            "text_l2": "Maatu madu"
+          },
+          "destination_id": 14
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": {
+        "text_l1": "Eliadarav Kara Ganima",
+        "text_l2": "Helapadisu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya eliadarav kara ganima adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu helapadisu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Maha lokaya awaboda kara ganna",
+            "text_l2": "Maha loka artha madalu"
+          },
+          "destination_id": 15
+        },
+        {
+          "action_text": {
+            "text_l1": "Rahasa samiksha kamarayata yanna",
+            "text_l2": "Rahasya sameeksha komariyadakke hogu"
+          },
+          "destination_id": 11
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": {
+        "text_l1": "Matu Karanna",
+        "text_l2": "Maatu Madu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya matu karanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu maatu madu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Viparamanna",
+            "text_l2": "Vichara madalu"
+          },
+          "destination_id": 16
+        },
+        {
+          "action_text": {
+            "text_l1": "Eliadarav kara ganima",
+            "text_l2": "Helapadisu"
+          },
+          "destination_id": 13
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": {
+        "text_l1": "Maha Lokaya Awaboda Kara Ganna",
+        "text_l2": "Maha Loka Artha Madalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya maha lokaya awaboda kara ganna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu maha lokavannu artha madalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Rahasa wisadanna",
+            "text_l2": "Rahasya bagedisu"
+          },
+          "destination_id": 17
+        },
+        {
+          "action_text": {
+            "text_l1": "Eliadarav kara ganima",
+            "text_l2": "Helapadisu"
+          },
+          "destination_id": 13
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": {
+        "text_l1": "Viparamanna",
+        "text_l2": "Vichara Madalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya viparamanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu vichara madalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Maha lokaya awaboda kara ganna",
+            "text_l2": "Maha loka artha madalu"
+          },
+          "destination_id": 15
+        },
+        {
+          "action_text": {
+            "text_l1": "Matu karanna",
+            "text_l2": "Maatu madu"
+          },
+          "destination_id": 14
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": {
+        "text_l1": "Rahasa Wisadanna",
+        "text_l2": "Rahasya Bagedisu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya rahasiya wisadanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu rahasya bagedisu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Wadi durata hoyanna",
+            "text_l2": "Munde hudukalu"
+          },
+          "destination_id": 18
+        },
+        {
+          "action_text": {
+            "text_l1": "Maha lokaya awaboda kara ganna",
+            "text_l2": "Maha loka artha madalu"
+          },
+          "destination_id": 15
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": {
+        "text_l1": "Wadi Durata Hoyanna",
+        "text_l2": "Munde Hudukalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya wadi durata hoyanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu munde hudukalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri!"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Athula thiyanawa",
+            "text_l2": "Olge iddu"
+          },
+          "destination_id": 19
+        },
+        {
+          "action_text": {
+            "text_l1": "Rahasa wisadanna",
+            "text_l2": "Rahasya bagedisu"
+          },
+          "destination_id": 17
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": {
+        "text_l1": "Athula Thiyanawa",
+        "text_l2": "Olge Iddu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya athula thiyanawa adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu olge iddu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Elisa ganima",
+            "text_l2": "Prasanna madalu"
+          },
+          "destination_id": 20
+        },
+        {
+          "action_text": {
+            "text_l1": "Wadi durata hoyanna",
+            "text_l2": "Munde hudukalu"
+          },
+          "destination_id": 18
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": {
+        "text_l1": "Elisa Ganima",
+        "text_l2": "Prasanna Madalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya elisa ganima adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu prasanna madalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Kriya ganima",
+            "text_l2": "Kriya madalu"
+          },
+          "destination_id": 21
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": {
+        "text_l1": "Kriya Ganima",
+        "text_l2": "Kriya Madalu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya kriya ganima adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu kriya madalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Nawathinakota yanna",
+            "text_l2": "Nillada hogu"
+          },
+          "destination_id": 22
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": {
+        "text_l1": "Nawathinakota Yanna",
+        "text_l2": "Nillada Hogu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya nawathinakota yanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu nillada hogu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Awasanaya soya yanna",
+            "text_l2": "Antima hudukalu hogu"
+          },
+          "destination_id": 23
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": {
+        "text_l1": "Awasonaya Soya Yanna",
+        "text_l2": "Antima Hudukalu Hogu"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya awasanaya soya yanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu antima hudukalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Rahasa awasanaya",
+            "text_l2": "Rahasya antima"
+          },
+          "destination_id": 24
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": {
+        "text_l1": "Rahasa Awasanaya",
+        "text_l2": "Rahasya Antima"
+      },
+      "texts": [
+        {
+          "text_l1": "Oya rahasiya awasanaya karanna adiyata enawa. Eka hari puduma thiyenawa. Eka hari aganak thiyenawa. Oyata puduma deyak kiyanawa. Den oya mokada karanne?",
+          "text_l2": "Neevu rahasya antima madalu adiyata baruttiri. Adu tumba ascharya idde. Adu tumba mukhyavagi idde. Ninage ascharya vishayavannu heluttade. Eeaga neevu enu maduttiri?"
+        }
+      ],
+      "actions": [
+        {
+          "action_text": {
+            "text_l1": "Eliadarav karanna",
+            "text_l2": "Helapadisu"
+          },
+          "destination_id": 25
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": {
+        "text_l1": "Eliadarav Karanna",
+        "text_l2": "Helapadi"
+      },
+      "texts": [
+        {
+          "text_l1": "Rahasa eliadarav kara gena thiyenawa. Meka arthur clarke ayathanaye gena rahasiya thamai.",
+          "text_l2": "Rahasya helapadide. Idu Arthur Clarke Institute-ge rahasyave."
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "prompt": "\n    Generate an interactive fiction story with 25 scenes (called nodes hereafter).\n    The nodes will be modeled as a graph and you are required to generate the list of nodes with actions acting as directed edges of the graph.\n    Once you generate, I will programmatically evaluate the graph for the following constraints:\n    - Start Node is the node with id=1. This is where the story begins. Only the start node maybe not linked to from any other node. \n    - All other nodes have to be linked to by at least one other node.\n    - Any node that doesn\u00b4t link to others is an \u00b4end node\u00b4. These are endpoints for the story.\n    - Every node that is not a start node or an end node must have a path from the start node, and a path to an end node.\n    \n    In the story, there must be no temporal elements (such as night and day) and no state changes to keep track of, like the player acquiring any objects.\n    Keep the narrative coherent for multiple visits to the same node from various different nodes.\n\n    Generate the story in colloquial Sinhala with spoken Kannada translations.\n    This is for a Kannada speaker to learn spoken Sinhala.\n    Keep both languages in Latin script. The idea is to learn speaking, not reading/writing.\n    Keep the word order of Kannada translations similar to the Sinhala sentence as mcuh as grammar allows.\n    This will enable the reader to learn Sinhala by mapping the translated words 1-1 with the original text.\n    \n    The story must be themed around some mysterious sci-fi events at the Arthur Clarke Institute which he setup in Colombo.\n    Keep the content at each node about 10 sentences long. Avoid unnecessary descriptions, include only facts useful to navigate the story.\n    Each node may have upto 5 actions.\n"
+}
